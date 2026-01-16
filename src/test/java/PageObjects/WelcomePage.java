@@ -66,13 +66,13 @@ public class WelcomePage extends BasePage {
     @FindBy(xpath = "//div[contains(text(),'United Arab Emirates')]")
     private WebElement selectUAE;
 
-    @FindBy(xpath = "//div[@class='css-1xc3v61-indicatorContainer']")
+    @FindBy(xpath = "//div[@class='css-13cymwt-control']//div[@class='css-hlgwow']")
     private WebElement btnRegionDropdown;
 
     @FindBy(xpath = "//div[@id='react-select-3-option-2']")
     private WebElement selectRegion;
 
-    @FindBy(xpath = "//div[contains(@class,'control')]//div[text()='Select your city']")
+    @FindBy(xpath = "//div[text()='Select your city']/ancestor::div[contains(@class,'control')]")
     private WebElement btnCityDropdown;
 
     @FindBy(xpath = "//div[@id='react-select-4-option-0']")
@@ -90,10 +90,13 @@ public class WelcomePage extends BasePage {
     @FindBy(xpath = "//input[@id=':re:']")
     private WebElement txtLastName;
 
-    @FindBy(xpath="//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedStart css-9uotl6']")
+    @FindBy(xpath="//input[@id=':rg:']")
     private WebElement txtDateOfBirth;
 
-    @FindBy(xpath = "//input[@value='male']")
+    @FindBy(xpath = "//div[@aria-label='Choose Tuesday, January 8th, 2013']")
+    private WebElement datePicker;
+
+    @FindBy(xpath = "//span[normalize-space()='Male']")
     private WebElement chkboxMale;
 
     @FindBy(xpath="//div[@class='custom-phone-input-container react-tel-input ']")
@@ -246,7 +249,8 @@ public class WelcomePage extends BasePage {
         sendKeys(txtfirstName, firstName);
         sendKeys(txtMiddleName, middleName);
         sendKeys(txtLastName, lastName);
-        sendKeys(txtDateOfBirth, dob);
+        click(txtDateOfBirth);
+        click(datePicker);
         click(chkboxMale);
         sendKeys(txtPhoneNumber, phoneNumber);
         click(dropdownUserDescription);

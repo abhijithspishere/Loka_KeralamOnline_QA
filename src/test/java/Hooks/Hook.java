@@ -127,7 +127,7 @@ public class Hook {
         }
 
         if (driver != null) {
-            driver.quit();
+            /*driver.quit();*/
         }
     }
 

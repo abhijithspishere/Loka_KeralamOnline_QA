@@ -41,7 +41,7 @@ public class WelcomePage_test extends Hook {
                     "Abhijith",
                     "S",
                     "Suresh",
-                    "01/01/1998",
+                    "2000-10-11",
                     "9876543210",
                     "Software Tester",
                     "Test@123",5
