@@ -1,0 +1,251 @@
+2025-12-31 12:29:56.240 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2025-12-31 12:29:56.243 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2025-12-31 12:29:56.244 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2025-12-31 12:29:56.249 [main] INFO  testNavigateToSignUpOptionsPage - Test TCLKSR_01: Navigate to Signup Options page
+2025-12-31 12:29:56.490 [main] INFO  testNavigateToSignUpOptionsPage - Test PASSED: testNavigateToSignUpOptionsPage
+2025-12-31 12:29:57.123 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2025-12-31 13:44:58.434 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2025-12-31 13:44:58.440 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2025-12-31 13:44:58.441 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2025-12-31 13:44:58.466 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2025-12-31 13:44:58.791 [main] INFO  testNavigateToSignUpOptionsPage - Test PASSED: testNavigateToSignUpOptionsPage
+2025-12-31 13:44:59.851 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2025-12-31 16:01:54.930 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2025-12-31 16:01:54.932 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2025-12-31 16:01:54.933 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2025-12-31 16:01:54.939 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2025-12-31 16:01:55.178 [main] INFO  testNavigateToSignUpOptionsPage - Test PASSED: testNavigateToSignUpOptionsPage
+2025-12-31 16:01:55.809 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2026-01-09 16:15:05.934 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-09 16:15:05.938 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2026-01-09 16:15:05.939 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2026-01-09 16:15:05.944 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2026-01-09 16:15:26.938 [main] ERROR testNavigateToSignUpOptionsPage - Test FAILED: testNavigateToSignUpOptionsPage
+2026-01-09 16:15:27.469 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2026-01-09 17:13:14.609 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-09 17:13:14.615 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2026-01-09 17:13:14.616 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2026-01-09 17:13:14.630 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2026-01-09 17:13:35.034 [main] ERROR testNavigateToSignUpOptionsPage - Test FAILED: testNavigateToSignUpOptionsPage
+2026-01-09 17:13:35.563 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2026-01-09 17:14:10.684 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-09 17:14:10.690 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2026-01-09 17:14:10.690 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2026-01-09 17:14:10.702 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2026-01-09 17:15:08.171 [main] ERROR testNavigateToSignUpOptionsPage - Test FAILED: testNavigateToSignUpOptionsPage
+2026-01-09 17:15:09.460 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2026-01-12 09:45:40.834 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-12 09:45:40.837 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2026-01-12 09:45:40.837 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2026-01-12 09:45:40.842 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2026-01-12 09:46:02.816 [main] ERROR testNavigateToSignUpOptionsPage - Test FAILED: testNavigateToSignUpOptionsPage
+2026-01-12 09:46:03.315 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2026-01-12 09:49:56.320 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-12 09:49:56.324 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2026-01-12 09:49:56.324 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2026-01-12 09:49:56.330 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2026-01-12 09:50:11.073 [main] ERROR testNavigateToSignUpOptionsPage - Test FAILED: testNavigateToSignUpOptionsPage
+2026-01-12 09:50:11.609 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2026-01-12 09:54:31.184 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-12 09:54:31.187 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2026-01-12 09:54:31.187 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2026-01-12 09:54:31.192 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2026-01-12 09:54:55.508 [main] ERROR testNavigateToSignUpOptionsPage - Test FAILED: testNavigateToSignUpOptionsPage
+2026-01-12 09:54:56.014 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2026-01-12 10:05:51.806 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-12 10:05:51.812 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2026-01-12 10:05:51.813 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2026-01-12 10:05:51.827 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2026-01-12 10:06:13.343 [main] ERROR testNavigateToSignUpOptionsPage - Test FAILED: testNavigateToSignUpOptionsPage
+2026-01-12 10:06:14.111 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2026-01-12 10:20:42.073 [main] INFO  testNavigateToSignUpOptionsPage - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-12 10:20:42.081 [main] INFO  testNavigateToSignUpOptionsPage - Browser: CHROME
+2026-01-12 10:20:42.082 [main] INFO  testNavigateToSignUpOptionsPage - Environment: QA
+2026-01-12 10:20:42.097 [main] INFO  testNavigateToSignUpOptionsPage - Navigate to Signup Options page
+2026-01-12 10:20:47.172 [main] INFO  testNavigateToSignUpOptionsPage - Test PASSED: testNavigateToSignUpOptionsPage
+2026-01-12 10:20:47.849 [main] INFO  testNavigateToSignUpOptionsPage - Test suite execution completed
+2026-01-13 16:31:21.849 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 16:31:21.860 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 16:31:21.860 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 16:31:21.872 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 16:32:16.320 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 16:32:16.326 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 16:32:17.065 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-13 16:33:57.796 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 16:33:57.802 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 16:33:57.803 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 16:33:57.815 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 16:35:00.457 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 16:35:00.471 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 16:35:01.335 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-13 16:40:20.200 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 16:40:20.206 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 16:40:20.207 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 16:40:20.218 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 16:41:32.294 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 16:41:32.307 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 16:41:33.024 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-13 16:57:57.784 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 16:57:57.789 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 16:57:57.790 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 16:57:57.802 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 16:58:48.052 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 16:58:48.062 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 16:58:48.787 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-13 16:59:42.041 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 16:59:42.051 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 16:59:42.051 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 16:59:42.063 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 17:00:54.696 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 17:00:54.703 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 17:00:55.431 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-13 17:01:39.010 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 17:01:39.015 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 17:01:39.016 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 17:01:39.028 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 17:02:33.392 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 17:02:33.408 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 17:02:34.198 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-13 17:08:15.712 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 17:08:15.722 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 17:08:15.722 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 17:08:15.737 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 17:09:17.995 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 17:09:18.006 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 17:09:18.821 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-13 17:16:32.360 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 17:16:32.363 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 17:16:32.364 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 17:16:32.369 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 17:17:15.674 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 17:17:15.679 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 17:17:16.192 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-13 17:29:26.221 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 17:29:26.227 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 17:29:26.227 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 17:29:26.237 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 17:30:17.257 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 17:30:17.262 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 17:30:17.807 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-13 17:31:18.186 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-13 17:31:18.189 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-13 17:31:18.189 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-13 17:31:18.194 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-13 17:32:00.376 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-13 17:32:00.382 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-13 17:32:00.909 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-14 10:47:45.395 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-14 10:47:45.403 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-14 10:47:45.403 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-14 10:47:45.415 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-14 10:48:50.282 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-14 10:48:50.293 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-14 10:48:51.200 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-14 10:58:28.805 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-14 10:58:28.811 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-14 10:58:28.812 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-14 10:58:28.821 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-14 10:59:11.023 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-14 10:59:11.034 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-14 10:59:11.782 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-14 11:00:25.740 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-14 11:00:25.745 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-14 11:00:25.746 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-14 11:00:25.758 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-14 11:01:10.231 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-14 11:01:10.248 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-14 11:01:11.378 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-14 11:09:19.724 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-14 11:09:19.732 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-14 11:09:19.732 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-14 11:09:19.745 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-14 11:10:27.838 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-14 11:10:27.844 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-14 11:10:28.569 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-14 11:33:43.976 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-14 11:33:43.979 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-14 11:33:43.980 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-14 11:33:43.985 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-14 11:34:47.654 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-14 11:34:48.313 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-14 11:37:23.483 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-14 11:37:23.485 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-14 11:37:23.485 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-14 11:37:23.490 [main] INFO  testRegistrationWithYopmail - Test: Registration with Yopmail OTP automation
+2026-01-14 11:37:53.950 [main] INFO  testRegistrationWithYopmail - Registration completed with OTP automation
+2026-01-14 11:37:53.956 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-14 11:37:54.594 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-14 17:25:43.402 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-14 17:25:43.409 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-14 17:25:43.410 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-14 17:25:43.423 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
+2026-01-14 17:25:43.500 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-14 17:25:43.501 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
+2026-01-14 17:25:43.501 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-14 17:25:43.848 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-14 17:25:44.196 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
+2026-01-14 17:25:44.197 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-14 17:25:44.473 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-14 17:25:44.847 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-14 17:25:45.261 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
+2026-01-14 17:25:45.691 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-14 17:26:14.410 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-14 17:26:14.413 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-14 17:26:14.734 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
+2026-01-14 17:26:14.734 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-14 17:26:18.659 [main] ERROR testRegistrationWithYopmail - Registration failed
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-1jqq78o-placeholder" id="react-select-4-placeholder">...</div> is not clickable at point (1100, 416). Other element would receive the click: <div class="css-19bb58m" data-value="">...</div>
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90118c5afca80aea55c5abf32be24896, clickElement {id=f.628C3E1A15FA3E1D2D026820F79BA7C6.d.23BDF38ADE5FF01EC2E64AB2491BC181.e.324}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56209}, goog:processID: 11372, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56209/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (90118c5afca80aea55c5abf32be24896)] -> xpath: //div[contains(@class,'control')]//div[text()='Select your city']]
+Session ID: 90118c5afca80aea55c5abf32be24896
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
+	at PageObjects.BasePage.click(BasePage.java:26)
+	at PageObjects.WelcomePage.selectCountryAndCity(WelcomePage.java:237)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-14 17:26:18.694 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-14 17:26:19.423 [main] INFO  testRegistrationWithYopmail - Test suite execution completed

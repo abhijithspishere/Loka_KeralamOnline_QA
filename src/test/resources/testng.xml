@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CDIPD Automation Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="Utils.TestListener" />
+    </listeners>
+
+    <test name="Smoke Tests">
+        <parameter name="browser" value="chrome" />
+        <parameter name="environment" value="qa" />
+        <classes>
+            <!-- Add test classes here as they are created -->
+        </classes>
+    </test>
+
+</suite>
