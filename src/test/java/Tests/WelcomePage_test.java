@@ -16,27 +16,35 @@ public class WelcomePage_test extends Hook {
     )
     public void testRegistrationWithYopmail() {
 
-        logger.info("===== TEST STARTED: testRegistrationWithYopmail =====");
-        test.log(Status.INFO, "Starting registration with Yopmail OTP");
+        logger.info("========== TEST STARTED : testRegistrationWithYopmail ==========");
+        test.log(Status.INFO, "Test started: Registration using Yopmail OTP");
 
         WelcomePage welcomePage = new WelcomePage(driver);
 
         try {
-            // Step 1: Close popup & explore
-            logger.info("Step 1: Closing popup and clicking Explore");
+            /* ---------- STEP 1 : Launch & Explore ---------- */
+            logger.info("STEP 1: Closing initial popup and clicking Explore");
+            test.log(Status.INFO, "Closing welcome popup and exploring application");
+
             welcomePage.clickCloseButton();
             welcomePage.clickExploreButton();
 
-            // Step 2: Registration with Yopmail
-            logger.info("Step 2: Registering user with Yopmail OTP");
+            /* ---------- STEP 2 : Register using Yopmail ---------- */
+            logger.info("STEP 2: Starting registration using Yopmail OTP");
+            test.log(Status.INFO, "Registering user using Yopmail OTP");
+
             welcomePage.registerWithYopmail();
 
-            // Step 3: Select country & city
-            logger.info("Step 3: Selecting country and city");
+            /* ---------- STEP 3 : Country & City Selection ---------- */
+            logger.info("STEP 3: Selecting country and city");
+            test.log(Status.INFO, "Selecting country and city details");
+
             welcomePage.selectCountryAndCity();
 
-            // Step 4: Fill personal details (inside WelcomePage)
-            logger.info("Step 4: Filling personal details");
+            /* ---------- STEP 4 : Fill Personal Details ---------- */
+            logger.info("STEP 4: Filling personal details and completing registration");
+            test.log(Status.INFO, "Entering personal details and submitting registration");
+
             welcomePage.fillPersonalDetails(
                     "Abhijith",
                     "S",
@@ -44,32 +52,44 @@ public class WelcomePage_test extends Hook {
                     "2000-10-11",
                     "9876543210",
                     "Software Tester",
-                    "Test@123",5
+                    "Test@123",
+                    5
             );
 
-            // Step 5: Validation
-            logger.info("Step 5: Verifying registration success");
-//            boolean isSuccess = welcomePage.isRegistrationSuccessDisplayed();
-//
-//            Assert.assertTrue(
-//                    isSuccess,
-//                    "Registration success message not displayed"
-//            );
+            /* ---------- STEP 5 : Registration Validation ---------- */
+            /*logger.info("STEP 5: Validating successful registration via Logout button");
+            test.log(Status.INFO, "Validating registration success using Logout visibility");*/
 
-            test.log(Status.PASS, "Registration completed successfully with Yopmail OTP");
-            logger.info("TEST PASSED: Registration completed successfully");
+//            boolean isRegistered = welcomePage.isRegistrationSuccessful();
+
+           /* Assert.assertTrue(
+                    isRegistered,
+                    "Registration failed: Logout button not visible or enabled"
+            );*/
+
+           /* logger.info("Registration validation successful - Logout button is visible");
+            test.log(Status.PASS, "Registration verified successfully");*/
+
+            /* ---------- STEP 6 : Logout ---------- */
+            logger.info("STEP 6: Logging out registered user");
+            test.log(Status.INFO, "Logging out the registered user");
+
+            welcomePage.logoutRegisteredUser();
+
+            logger.info("User logged out successfully");
+
+            test.log(Status.PASS, "End-to-end registration flow completed successfully");
+            logger.info("========== TEST PASSED : testRegistrationWithYopmail ==========");
 
         } catch (TimeoutException e) {
+            logger.error("Timeout occurred during registration flow", e);
             test.log(Status.FAIL, "Timeout during registration: " + e.getMessage());
-            logger.error("Timeout during registration", e);
-            Assert.fail("Timeout during registration");
+            Assert.fail("Timeout during registration flow");
 
         } catch (Exception e) {
-            test.log(Status.FAIL, "Registration failed: " + e.getMessage());
-            logger.error("Registration failed", e);
-            Assert.fail("Registration failed");
+            logger.error("Exception occurred during registration flow", e);
+            test.log(Status.FAIL, "Registration flow failed: " + e.getMessage());
+            Assert.fail("Registration flow failed");
         }
-
-        logger.info("===== TEST COMPLETED: testRegistrationWithYopmail =====");
     }
 }

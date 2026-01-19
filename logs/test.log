@@ -829,3 +829,1461 @@ Session ID: a2b47f81c4ff669a92b3ac54aa132a2c
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 2026-01-16 12:51:24.181 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
 2026-01-16 12:51:25.325 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 11:28:11.918 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 11:28:11.921 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 11:28:11.921 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 11:28:11.927 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
+2026-01-19 11:28:11.971 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 11:28:11.971 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
+2026-01-19 11:28:11.971 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 11:28:12.217 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 11:28:12.535 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
+2026-01-19 11:28:12.535 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 11:28:12.674 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 11:28:12.901 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 11:28:13.063 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
+2026-01-19 11:28:13.335 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 11:28:39.315 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 11:28:39.316 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 11:28:39.436 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
+2026-01-19 11:28:39.436 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 11:28:42.464 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
+2026-01-19 11:28:43.793 [main] ERROR testRegistrationWithYopmail - Registration failed
+org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8514f04cf46397d19616daf004a142c1, clearElement {id=f.309FAF34C9AAD679BD65B522CCA87D8C.d.D88941759B39D7EF90574F711B5708FA.e.377}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50962}, goog:processID: 18156, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50962/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8514f04cf46397d19616daf004a142c1)] -> xpath: //div[@class='custom-phone-input-container react-tel-input ']]
+Session ID: 8514f04cf46397d19616daf004a142c1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.clear(Unknown Source)
+	at PageObjects.BasePage.sendKeys(BasePage.java:31)
+	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:255)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-19 11:28:43.843 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 11:28:44.378 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 11:41:43.814 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 11:41:43.822 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 11:41:43.822 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 11:41:43.835 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
+2026-01-19 11:41:43.920 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 11:41:43.921 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
+2026-01-19 11:41:43.922 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 11:41:44.404 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 11:41:44.927 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
+2026-01-19 11:41:44.927 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 11:41:45.350 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 11:41:45.918 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 11:41:46.357 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
+2026-01-19 11:41:47.449 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 11:42:16.593 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 11:42:16.595 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 11:42:16.898 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
+2026-01-19 11:42:16.898 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 11:42:24.165 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
+2026-01-19 11:42:27.667 [main] ERROR testRegistrationWithYopmail - Registration failed
+org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5952c5743049fe8637023fa1ff999697, clearElement {id=f.C8BE07C8B1E7A4A0EEBF7063BC3E7638.d.CF83827889131C2208AEA514A9D9E079.e.380}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59521}, goog:processID: 5232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59521/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5952c5743049fe8637023fa1ff999697)] -> xpath: //div[@class='custom-phone-input-container react-tel-input ']]
+Session ID: 5952c5743049fe8637023fa1ff999697
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.clear(Unknown Source)
+	at PageObjects.BasePage.sendKeys(BasePage.java:31)
+	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:256)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-19 11:42:27.701 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 11:42:28.586 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 11:47:43.117 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 11:47:43.128 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 11:47:43.128 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 11:47:43.139 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
+2026-01-19 11:47:43.222 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 11:47:43.222 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
+2026-01-19 11:47:43.222 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 11:47:54.323 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 11:47:54.696 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
+2026-01-19 11:47:54.697 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 11:47:55.005 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 11:47:55.519 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 11:47:55.773 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
+2026-01-19 11:47:56.197 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 11:48:22.253 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 11:48:22.258 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 11:48:22.529 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
+2026-01-19 11:48:22.530 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 11:48:26.995 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
+2026-01-19 11:48:51.924 [main] ERROR testRegistrationWithYopmail - Timeout during registration
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (0c5a1f96e7d899a8f5d371e2a1d4e4ef)] -> xpath: //input[@name='terms']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62411}, goog:processID: 16752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62411/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c5a1f96e7d899a8f5d371e2a1d4e4ef
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.BasePage.click(BasePage.java:25)
+	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:271)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-19 11:48:51.957 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 11:48:52.787 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 11:53:01.467 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 11:53:01.478 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 11:53:01.479 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 11:53:01.490 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
+2026-01-19 11:53:01.570 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 11:53:01.570 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
+2026-01-19 11:53:01.571 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 11:53:01.937 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 11:53:02.275 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
+2026-01-19 11:53:02.275 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 11:53:02.531 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 11:53:02.911 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 11:53:03.303 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
+2026-01-19 11:53:03.767 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 11:53:32.882 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 11:53:32.883 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 11:53:33.138 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
+2026-01-19 11:53:33.138 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 11:53:38.021 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
+2026-01-19 11:54:02.828 [main] ERROR testRegistrationWithYopmail - Timeout during registration
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (68e66c57d2a2ecc626c3c741e7498b3b)] -> xpath: //input[@type='checkbox' and @name='terms']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59774}, goog:processID: 14120, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59774/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68e66c57d2a2ecc626c3c741e7498b3b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.BasePage.click(BasePage.java:25)
+	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:271)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-19 11:54:02.844 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 11:54:03.223 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 12:09:07.092 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 12:09:07.100 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 12:09:07.101 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 12:09:07.117 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
+2026-01-19 12:09:07.191 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:09:07.193 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
+2026-01-19 12:09:07.193 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 12:09:07.518 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:09:07.912 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
+2026-01-19 12:09:07.912 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 12:09:08.158 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 12:09:08.546 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 12:09:08.945 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
+2026-01-19 12:09:09.425 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 12:09:35.731 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 12:09:35.731 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 12:09:35.988 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
+2026-01-19 12:09:35.988 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 12:09:39.998 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
+2026-01-19 12:10:19.202 [main] ERROR testRegistrationWithYopmail - Registration failed
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f893481bd4796b7c1723a73629c8a5a, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56524}, goog:processID: 7292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56524/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f893481bd4796b7c1723a73629c8a5a
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at PageObjects.WelcomePage.jsClick(WelcomePage.java:144)
+	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:278)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:971)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 9 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:440)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	... 3 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+2026-01-19 12:10:19.219 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 12:10:19.565 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 12:20:47.342 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 12:20:47.347 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 12:20:47.348 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 12:20:47.359 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
+2026-01-19 12:20:47.425 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:20:47.425 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
+2026-01-19 12:20:47.425 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 12:20:47.732 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:20:48.094 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
+2026-01-19 12:20:48.095 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 12:20:48.354 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 12:20:48.707 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 12:20:48.977 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
+2026-01-19 12:20:49.522 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 12:21:12.662 [main] ERROR PageObjects.WelcomePage - Could not use single OTP field: Error communicating with the remote browser. It may have died.
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bd76c26facf0517a40c7d56642928ca, findElements [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54761}, goog:processID: 18456, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54761/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bd76c26facf0517a40c7d56642928ca
+2026-01-19 12:21:12.671 [main] ERROR PageObjects.WelcomePage - Failed to enter OTP digit 1: Error communicating with the remote browser. It may have died.
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bd76c26facf0517a40c7d56642928ca, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54761}, goog:processID: 18456, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54761/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bd76c26facf0517a40c7d56642928ca
+2026-01-19 12:21:12.674 [main] ERROR testRegistrationWithYopmail - Registration failed
+java.lang.RuntimeException: Failed to enter OTP
+	at PageObjects.WelcomePage.enterOTP(WelcomePage.java:233)
+	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:179)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bd76c26facf0517a40c7d56642928ca, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54761}, goog:processID: 18456, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54761/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bd76c26facf0517a40c7d56642928ca
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at PageObjects.WelcomePage.enterOTP(WelcomePage.java:225)
+	... 27 more
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 9 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1082)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire$$$capture(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1817)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 11 more
+2026-01-19 12:21:12.689 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 12:21:13.051 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 12:22:14.157 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 12:22:14.164 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 12:22:14.164 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 12:22:14.175 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
+2026-01-19 12:22:14.247 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:22:14.248 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
+2026-01-19 12:22:14.248 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 12:22:14.546 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:22:14.953 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
+2026-01-19 12:22:14.954 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 12:22:15.198 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 12:22:15.551 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 12:22:15.952 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka77@***
+2026-01-19 12:22:16.374 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 12:22:44.271 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 12:22:44.271 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 12:22:44.567 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
+2026-01-19 12:22:44.568 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 12:22:48.506 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
+2026-01-19 12:22:53.418 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 12:22:53.418 [main] INFO  testRegistrationWithYopmail - Step 5: Verifying registration success
+2026-01-19 12:22:53.419 [main] INFO  testRegistrationWithYopmail - TEST PASSED: Registration completed successfully
+2026-01-19 12:22:53.420 [main] INFO  testRegistrationWithYopmail - ===== TEST COMPLETED: testRegistrationWithYopmail =====
+2026-01-19 12:22:53.431 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-19 12:22:54.262 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 12:48:01.055 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 12:48:01.077 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 12:48:01.077 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 12:48:01.095 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 12:48:01.196 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:48:01.196 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 12:48:01.197 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 12:48:01.666 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:48:02.145 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 12:48:02.146 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 12:48:02.564 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 12:48:03.230 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 12:48:03.527 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka77@***
+2026-01-19 12:48:04.236 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 12:48:14.657 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [933448df0b22b2ecf44d86d133967bb9, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64253}, goog:processID: 2688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64253/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 933448df0b22b2ecf44d86d133967bb9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:480)
+	at Utils.YopmailOTPFetcher.getOTPFromYopmail(YopmailOTPFetcher.java:193)
+	at Utils.YopmailOTPFetcher.fetchOTPWithRetry(YopmailOTPFetcher.java:454)
+	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:182)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-19 12:48:14.691 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 12:48:15.277 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 12:48:46.430 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 12:48:46.438 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 12:48:46.440 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 12:48:46.459 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 12:48:46.546 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:48:46.547 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 12:48:46.548 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 12:48:47.035 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:48:47.427 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 12:48:47.428 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 12:48:47.743 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 12:48:48.202 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 12:48:48.561 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka85@***
+2026-01-19 12:48:49.327 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 12:49:20.145 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 12:49:20.148 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 12:49:20.406 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-19 12:49:20.407 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 12:49:25.394 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
+2026-01-19 12:49:30.659 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 12:49:30.660 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
+2026-01-19 12:49:30.661 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
+2026-01-19 12:50:07.653 [main] ERROR PageObjects.WelcomePage - Logout button not visible/enabled. Registration may have failed.
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='Logout']' (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.WelcomePage.isRegistrationSuccessful(WelcomePage.java:306)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Logout']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b815083969b32c1e952560ef977f62e, findElement {using=xpath, value=//span[normalize-space()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64507}, goog:processID: 20328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64507/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b815083969b32c1e952560ef977f62e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 27 more
+2026-01-19 12:50:07.734 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 12:50:09.326 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 12:55:30.611 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 12:55:30.709 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 12:55:30.709 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 12:55:30.754 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 12:55:31.033 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:55:31.034 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 12:55:31.039 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 12:55:32.597 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:55:34.652 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 12:55:34.653 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 12:55:37.005 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 12:55:39.393 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 12:55:40.260 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka85@***
+2026-01-19 12:55:41.702 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 12:56:45.749 [main] ERROR PageObjects.WelcomePage - Failed to enter OTP digit 1: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //input[@aria-label='Please enter verification code. Digit 1']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-01-19 12:56:45.772 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
+java.lang.RuntimeException: Failed to enter OTP
+	at PageObjects.WelcomePage.enterOTP(WelcomePage.java:239)
+	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:185)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //input[@aria-label='Please enter verification code. Digit 1']' (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.WelcomePage.enterOTP(WelcomePage.java:231)
+	... 27 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-label='Please enter verification code. Digit 1']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3f6707f0d73535a355c74cad49fb6e9, findElement {value=//input[@aria-label='Please enter verification code. Digit 1'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49156}, goog:processID: 2276, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49156/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3f6707f0d73535a355c74cad49fb6e9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+2026-01-19 12:56:45.832 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 12:56:47.921 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 13:02:16.556 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 13:02:16.605 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 13:02:16.606 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 13:02:16.642 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 13:02:16.917 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 13:02:16.917 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 13:02:16.918 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 13:02:20.078 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 13:02:21.977 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 13:02:21.979 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 13:02:23.704 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 13:02:25.486 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 13:02:26.501 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka84@***
+2026-01-19 13:02:28.092 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 13:02:57.664 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 13:02:57.665 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 13:02:58.005 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-19 13:02:58.006 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 13:03:05.169 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
+2026-01-19 13:03:13.351 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 13:03:13.354 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
+2026-01-19 13:03:13.356 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
+2026-01-19 13:03:37.425 [main] ERROR PageObjects.WelcomePage - Logout button not visible/enabled. Registration may have failed.
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [685cd138955405aa066dd38e3807768e, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60864}, goog:processID: 21492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60864/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 685cd138955405aa066dd38e3807768e
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at PageObjects.WelcomePage.isRegistrationSuccessful(WelcomePage.java:306)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:971)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 9 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:440)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	... 3 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+2026-01-19 13:03:37.457 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 13:03:38.110 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 13:06:21.301 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 13:06:21.314 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 13:06:21.314 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 13:06:21.328 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 13:06:21.404 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 13:06:21.405 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 13:06:21.406 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 13:06:36.103 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 13:06:36.429 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 13:06:36.430 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 13:06:36.716 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 13:06:37.627 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 13:06:38.051 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka84@***
+2026-01-19 13:06:38.670 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 13:06:48.869 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f8510367c94a3e367a1566d3f845662, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51471}, goog:processID: 16940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51471/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f8510367c94a3e367a1566d3f845662
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:480)
+	at Utils.YopmailOTPFetcher.getOTPFromYopmail(YopmailOTPFetcher.java:193)
+	at Utils.YopmailOTPFetcher.fetchOTPWithRetry(YopmailOTPFetcher.java:454)
+	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:182)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-19 13:06:48.893 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 13:06:49.716 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 13:07:16.615 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 13:07:16.617 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 13:07:16.617 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 13:07:16.629 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 13:07:16.679 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 13:07:16.679 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 13:07:16.679 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 13:07:17.001 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 13:07:17.665 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 13:07:17.666 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 13:07:18.094 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 13:07:18.530 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 13:07:18.780 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka855@***
+2026-01-19 13:07:19.668 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 13:07:47.365 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 13:07:47.365 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 13:07:47.613 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-19 13:07:47.614 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 13:07:51.780 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
+2026-01-19 13:07:56.116 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 13:07:56.117 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
+2026-01-19 13:07:56.118 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
+2026-01-19 13:08:26.760 [main] ERROR PageObjects.WelcomePage - Logout button not visible/enabled. Registration may have failed.
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='Logout']' (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.WelcomePage.isRegistrationSuccessful(WelcomePage.java:306)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Logout']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8bbb711a0ff81197a51016b24c561f93, findElement {value=//span[normalize-space()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61590}, goog:processID: 12020, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61590/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bbb711a0ff81197a51016b24c561f93
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 27 more
+2026-01-19 13:08:26.811 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 13:08:27.767 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 13:09:55.920 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 13:09:55.928 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 13:09:55.928 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 13:09:55.957 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 13:09:56.037 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 13:09:56.038 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 13:09:56.039 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 13:09:56.342 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 13:09:56.676 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 13:09:56.677 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 13:09:56.929 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 13:09:57.710 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 13:09:58.064 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka858@***
+2026-01-19 13:09:58.763 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 13:10:26.746 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 13:10:26.747 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 13:10:26.908 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-19 13:10:26.909 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 13:10:31.702 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
+2026-01-19 13:10:36.442 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 13:10:36.443 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
+2026-01-19 13:10:36.443 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
+2026-01-19 13:10:36.444 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 13:10:36.487 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//main[@class='MuiBox-root css-r2f5jf']//div[@class='MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1p9u28g'][normalize-space()='DS'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//main[@class='MuiBox-root css-r2f5jf']//div[@class='MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1p9u28g'][normalize-space()='DS']' is not a valid XPath expression.
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7eb9578c3a290df7625c718d20370451, findElement {value=(//main[@class='MuiBox-root css-r2f5jf']//div[@class='MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1p9u28g'][normalize-space()='DS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61251}, goog:processID: 18936, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61251/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7eb9578c3a290df7625c718d20370451
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at PageObjects.WelcomePage.logoutRegisteredUser(WelcomePage.java:297)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-19 13:10:36.510 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 13:10:37.593 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 14:58:50.348 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 14:58:50.352 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 14:58:50.353 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 14:58:50.370 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 14:58:50.422 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 14:58:50.422 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 14:58:50.423 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 14:58:50.614 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 14:58:50.919 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 14:58:50.919 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 14:58:51.058 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 14:58:51.237 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 14:58:51.390 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka8778@***
+2026-01-19 14:58:51.647 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 14:59:24.082 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 14:59:24.083 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 14:59:24.184 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-19 14:59:24.185 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 14:59:27.007 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
+2026-01-19 14:59:29.852 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 14:59:29.852 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
+2026-01-19 14:59:29.852 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 15:00:00.524 [main] ERROR testRegistrationWithYopmail - Timeout occurred during registration flow
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //main[@class='MuiBox-root css-r2f5jf']//div[@class='MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1p9u28g'][normalize-space()='DS']' (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.WelcomePage.logoutRegisteredUser(WelcomePage.java:302)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//main[@class='MuiBox-root css-r2f5jf']//div[@class='MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1p9u28g'][normalize-space()='DS']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4825e949681f5c5880b08db2c6b7cf77, findElement {value=//main[@class='MuiBox-root css-r2f5jf']//div[@class='MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1p9u28g'][normalize-space()='DS'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59849}, goog:processID: 6056, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59849/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4825e949681f5c5880b08db2c6b7cf77
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 27 more
+2026-01-19 15:00:00.549 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 15:00:01.082 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 15:25:02.604 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 15:25:02.609 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 15:25:02.609 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 15:25:02.618 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 15:25:02.650 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 15:25:02.651 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 15:25:02.651 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 15:25:02.808 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 15:25:03.115 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 15:25:03.116 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 15:25:03.281 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 15:25:03.593 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 15:25:03.834 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka8478@***
+2026-01-19 15:25:04.390 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 15:25:32.392 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 15:25:32.392 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 15:25:32.535 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-19 15:25:32.536 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 15:25:36.001 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
+2026-01-19 15:25:39.888 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 15:25:39.889 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
+2026-01-19 15:25:39.889 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 15:26:00.532 [main] ERROR testRegistrationWithYopmail - Timeout occurred during registration flow
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[contains(@class,'MuiAvatar-root') and normalize-space()='VV'])[2] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.WelcomePage.logoutRegisteredUser(WelcomePage.java:309)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(@class,'MuiAvatar-root') and normalize-space()='VV'])[2]"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5c4a42b384d14e77a1da5c4e9fb2ef1, findElement {value=(//div[contains(@class,'MuiAvatar-root') and normalize-space()='VV'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52893}, goog:processID: 12984, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52893/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5c4a42b384d14e77a1da5c4e9fb2ef1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 27 more
+2026-01-19 15:26:00.561 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 15:26:01.145 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 15:36:52.102 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 15:36:52.108 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 15:36:52.108 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 15:36:52.116 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 15:36:52.147 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 15:36:52.147 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 15:36:52.148 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 15:36:52.325 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 15:36:52.635 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 15:36:52.636 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 15:36:52.777 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 15:36:52.990 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 15:36:53.439 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka8478@***
+2026-01-19 15:36:53.776 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 15:37:04.057 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec69374d721bb1d2c0c5564b7e2765eb, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60791}, goog:processID: 16912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60791/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec69374d721bb1d2c0c5564b7e2765eb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:480)
+	at Utils.YopmailOTPFetcher.getOTPFromYopmail(YopmailOTPFetcher.java:193)
+	at Utils.YopmailOTPFetcher.fetchOTPWithRetry(YopmailOTPFetcher.java:454)
+	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:182)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-19 15:37:04.075 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 15:37:04.337 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 15:37:47.473 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 15:37:47.482 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 15:37:47.482 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 15:37:47.489 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 15:37:47.531 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 15:37:47.531 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 15:37:47.532 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 15:37:47.819 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 15:37:48.132 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 15:37:48.133 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 15:37:48.270 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 15:37:48.463 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 15:37:48.654 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithnew222@***
+2026-01-19 15:37:49.160 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 15:38:18.295 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 15:38:18.296 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 15:38:18.421 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-19 15:38:18.421 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 15:38:22.040 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
+2026-01-19 15:38:25.870 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 15:38:25.871 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
+2026-01-19 15:38:25.871 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 15:38:52.204 [main] ERROR testRegistrationWithYopmail - Timeout occurred during registration flow
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //li[normalize-space()='Logout'] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.WelcomePage.logoutRegisteredUser(WelcomePage.java:316)
+	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[normalize-space()='Logout']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa95d47bc7db3c14d7680d5a29a3e417, findElement {using=xpath, value=//li[normalize-space()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55944}, goog:processID: 19148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55944/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa95d47bc7db3c14d7680d5a29a3e417
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 27 more
+2026-01-19 15:38:52.236 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-19 15:38:52.820 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-19 15:43:34.880 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-19 15:43:34.884 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-19 15:43:34.884 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-19 15:43:34.890 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-19 15:43:34.924 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 15:43:34.924 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-19 15:43:34.925 [main] INFO  PageObjects.WelcomePage - Clicking Close button
+2026-01-19 15:43:35.263 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 15:43:35.597 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-19 15:43:35.597 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
+2026-01-19 15:43:35.741 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
+2026-01-19 15:43:35.988 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
+2026-01-19 15:43:36.154 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithnew2220@***
+2026-01-19 15:43:36.414 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 15:44:25.510 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
+2026-01-19 15:44:25.511 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 15:44:25.690 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-19 15:44:25.692 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 15:44:28.945 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
+2026-01-19 15:44:32.421 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 15:44:32.421 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
+2026-01-19 15:44:32.421 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 15:44:36.286 [main] INFO  testRegistrationWithYopmail - User logged out successfully
+2026-01-19 15:44:36.287 [main] INFO  testRegistrationWithYopmail - ========== TEST PASSED : testRegistrationWithYopmail ==========
+2026-01-19 15:44:36.292 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-19 15:44:36.759 [main] INFO  testRegistrationWithYopmail - Test suite execution completed

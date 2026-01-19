@@ -99,7 +99,7 @@ public class WelcomePage extends BasePage {
     @FindBy(xpath = "//span[normalize-space()='Male']")
     private WebElement chkboxMale;
 
-    @FindBy(xpath="//div[@class='custom-phone-input-container react-tel-input ']")
+    @FindBy(xpath = "//input[@type='tel']")
     private WebElement txtPhoneNumber;
 
     @FindBy(xpath = "//div[@id='mui-component-select-description']")
@@ -114,14 +114,20 @@ public class WelcomePage extends BasePage {
     @FindBy(xpath = "//span[contains(@class,'MuiSlider-thumb')]")
     private WebElement sliderExperience;
 
-    @FindBy(xpath = "//input[@name='terms']")
-    private WebElement btnTerms;
+    /*@FindBy(xpath = "//span[contains(@class,'MuiCheckbox-root')]//input[@name='terms']")
+    private WebElement btnTerms;*/
 
     @FindBy(xpath = "//button[normalize-space()='Register']")
     private WebElement btnRegister;
 
+   /* @FindBy(xpath = "(//div[contains(@class,'MuiAvatar-root') and normalize-space()='VV'])[2]")
+    private WebElement profileBtn;
+
+    @FindBy(xpath = "//span[normalize-space()='Logout']")
+    private WebElement btnLogout;*/
+
     //Constants
-    private final String YOPMAIL_USERNAME = "abhijith4499";
+    private final String YOPMAIL_USERNAME = "abhijithnew2220";
     private final YopmailOTPFetcher otpFetcher;
 
     public WelcomePage(WebDriver driver) {
@@ -139,6 +145,18 @@ public class WelcomePage extends BasePage {
         logger.info("Clicking Explore button");
         click(btnExplore);
     }
+
+    protected void clickCheckbox() {
+        By locator = By.xpath("//input[@name='terms']");
+
+        WebElement checkbox = wait.until(
+                ExpectedConditions.presenceOfElementLocated(locator)
+        );
+
+        js.executeScript("arguments[0].scrollIntoView({block:'center'});", checkbox);
+        js.executeScript("arguments[0].click();", checkbox);
+    }
+
 
 
     public void registerWithYopmail() throws InterruptedException {
@@ -252,6 +270,7 @@ public class WelcomePage extends BasePage {
         click(txtDateOfBirth);
         click(datePicker);
         click(chkboxMale);
+//        click(txtPhoneNumber);
         sendKeys(txtPhoneNumber, phoneNumber);
         click(dropdownUserDescription);
         click(selectUserDescription);
@@ -267,10 +286,67 @@ public class WelcomePage extends BasePage {
                 .perform();
 
         sendKeys(txtPassword, password);
-        click(btnTerms);
+//        click(btnTerms);
+//        jsClick(btnTerms);
+        clickCheckbox();
         click(btnRegister);
         logger.info("Complete registration process finished");
     }
+
+
+
+    private final By profileBtn =
+            By.xpath("(//div[contains(@class,'MuiAvatar-root') and normalize-space()='AS'])[2]");
+
+    private final By btnLogout =
+            By.xpath("//div[@role='button'][.//span[normalize-space()='Logout']]");   // adjust if needed
+
+
+    public void logoutRegisteredUser() {
+        logger.info("Logging out registered user");
+
+        // Click profile avatar
+        WebElement profile = wait.until(
+                ExpectedConditions.presenceOfElementLocated(profileBtn)
+        );
+        js.executeScript("arguments[0].scrollIntoView({block:'center'});", profile);
+        js.executeScript("arguments[0].click();", profile);
+
+        // Click logout
+        WebElement logout = wait.until(
+                ExpectedConditions.presenceOfElementLocated(btnLogout)
+        );
+        js.executeScript("arguments[0].scrollIntoView({block:'center'});", logout);
+        js.executeScript("arguments[0].click();", logout);
+    }
+
+
+
+
+
+
+    /*public boolean isRegistrationSuccessful() {
+        try {
+            logger.info("Verifying registration success by checking Logout button visibility");
+            wait.until(ExpectedConditions.visibilityOf(btnLogout));
+            click(profileBtn);
+            return btnLogout.isDisplayed() && btnLogout.isEnabled();
+        } catch (Exception e) {
+            logger.error("Logout button not visible/enabled. Registration may have failed.", e);
+            return false;
+        }
+    }
+*/
+
+
+
+
+
+
+
+
+
+
 
     private void setExperienceSlider(int years) {
         logger.debug("Setting experience slider to {} years", years);
