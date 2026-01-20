@@ -150,7 +150,6 @@ public class WelcomePage extends BasePage {
     }
 
 
-
     public void registerWithYopmail() throws InterruptedException {
         logger.info("Clicking Join Now button");
         click(btnJoinNow);
