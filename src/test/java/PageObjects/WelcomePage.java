@@ -114,20 +114,12 @@ public class WelcomePage extends BasePage {
     @FindBy(xpath = "//span[contains(@class,'MuiSlider-thumb')]")
     private WebElement sliderExperience;
 
-    /*@FindBy(xpath = "//span[contains(@class,'MuiCheckbox-root')]//input[@name='terms']")
-    private WebElement btnTerms;*/
-
     @FindBy(xpath = "//button[normalize-space()='Register']")
     private WebElement btnRegister;
 
-   /* @FindBy(xpath = "(//div[contains(@class,'MuiAvatar-root') and normalize-space()='VV'])[2]")
-    private WebElement profileBtn;
-
-    @FindBy(xpath = "//span[normalize-space()='Logout']")
-    private WebElement btnLogout;*/
 
     //Constants
-    private final String YOPMAIL_USERNAME = "abhijithnew2220";
+    private final String YOPMAIL_USERNAME = "abhi5667";
     private final YopmailOTPFetcher otpFetcher;
 
     public WelcomePage(WebDriver driver) {
@@ -197,13 +189,11 @@ public class WelcomePage extends BasePage {
 
     private void enterOTP(String otp) {
         if (otp == null || otp.isEmpty()) {
-            System.err.println("OTP is null or empty, using default: 123456");
-            otp = "123456";
+            throw new RuntimeException("OTP fetch failed from Yopmail");
         }
 
         System.out.println("Entering OTP: " + otp);
 
-        // Try to find a single OTP input field first
         boolean singleFieldUsed = false;
         try {
             List<WebElement> otpFields = driver.findElements(
@@ -218,7 +208,7 @@ public class WelcomePage extends BasePage {
             }
         } catch (Exception ex) {
             logger.error("Could not use single OTP field: {}", ex.getMessage());
-            /*System.err.println("Could not use single OTP field: " + ex.getMessage());*/
+
         }
 
         // If single field wasn't used, enter OTP digit by digit
@@ -243,11 +233,7 @@ public class WelcomePage extends BasePage {
         logger.info("OTP entered successfully");
     }
 
-    public String getYopmailUsername() {
-        return YOPMAIL_USERNAME;
-    }
 
-    // Additional methods for the unused fields (if needed later)
     public void selectCountryAndCity() {
         logger.info("Selecting country and city");
         click(btnClickToChoose);
@@ -270,7 +256,6 @@ public class WelcomePage extends BasePage {
         click(txtDateOfBirth);
         click(datePicker);
         click(chkboxMale);
-//        click(txtPhoneNumber);
         sendKeys(txtPhoneNumber, phoneNumber);
         click(dropdownUserDescription);
         click(selectUserDescription);
@@ -286,8 +271,6 @@ public class WelcomePage extends BasePage {
                 .perform();
 
         sendKeys(txtPassword, password);
-//        click(btnTerms);
-//        jsClick(btnTerms);
         clickCheckbox();
         click(btnRegister);
         logger.info("Complete registration process finished");
@@ -305,14 +288,13 @@ public class WelcomePage extends BasePage {
     public void logoutRegisteredUser() {
         logger.info("Logging out registered user");
 
-        // Click profile avatar
         WebElement profile = wait.until(
                 ExpectedConditions.presenceOfElementLocated(profileBtn)
         );
         js.executeScript("arguments[0].scrollIntoView({block:'center'});", profile);
         js.executeScript("arguments[0].click();", profile);
 
-        // Click logout
+
         WebElement logout = wait.until(
                 ExpectedConditions.presenceOfElementLocated(btnLogout)
         );
@@ -321,29 +303,26 @@ public class WelcomePage extends BasePage {
     }
 
 
-
-
-
-
-    /*public boolean isRegistrationSuccessful() {
+    public boolean isRegistrationSuccessful() {
         try {
             logger.info("Verifying registration success by checking Logout button visibility");
-            wait.until(ExpectedConditions.visibilityOf(btnLogout));
-            click(profileBtn);
-            return btnLogout.isDisplayed() && btnLogout.isEnabled();
+
+            WebElement profile = wait.until(
+                    ExpectedConditions.presenceOfElementLocated(profileBtn)
+            );
+            js.executeScript("arguments[0].click();", profile);
+
+            WebElement logout = wait.until(
+                    ExpectedConditions.visibilityOfElementLocated(btnLogout)
+            );
+
+            return logout.isDisplayed() && logout.isEnabled();
+
         } catch (Exception e) {
-            logger.error("Logout button not visible/enabled. Registration may have failed.", e);
+            logger.error("Registration verification failed", e);
             return false;
         }
     }
-*/
-
-
-
-
-
-
-
 
 
 
@@ -352,7 +331,7 @@ public class WelcomePage extends BasePage {
         logger.debug("Setting experience slider to {} years", years);
         Actions actions = new Actions(driver);
 
-        // Calculate offset based on years (assuming 0-50 years range)
+
         int offset = calculateSliderOffset(years);
         logger.debug("Calculated slider offset: {} pixels", offset);
 
@@ -362,12 +341,12 @@ public class WelcomePage extends BasePage {
                 .perform();
     }
     private int calculateSliderOffset(int years) {
-        // Assuming slider represents 0-50 years and has width of 200px
+
         int maxYears = 50;
         int sliderWidth = 200;
         int offset = (years * sliderWidth) / maxYears;
 
-        // Ensure offset is within bounds
+
         offset = Math.min(offset, sliderWidth);
         offset = Math.max(offset, 0);
 

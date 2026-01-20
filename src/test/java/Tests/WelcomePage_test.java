@@ -12,7 +12,7 @@ public class WelcomePage_test extends Hook {
     @Test(
             priority = 1,
             testName = "CLKOI-AT-GCCDW-01_Complete_Registration_Flow",
-            description = "Verify complete end-to-end registration flow using Yopmail OTP"
+            description = "Verify complete end-to-end registration flow using OTP"
     )
     public void testRegistrationWithYopmail() {
 
@@ -57,18 +57,18 @@ public class WelcomePage_test extends Hook {
             );
 
             /* ---------- STEP 5 : Registration Validation ---------- */
-            /*logger.info("STEP 5: Validating successful registration via Logout button");
-            test.log(Status.INFO, "Validating registration success using Logout visibility");*/
+            logger.info("STEP 5: Validating successful registration via Logout button");
+            test.log(Status.INFO, "Validating registration success using Logout visibility");
 
-//            boolean isRegistered = welcomePage.isRegistrationSuccessful();
+            boolean isRegistered = welcomePage.isRegistrationSuccessful();
 
-           /* Assert.assertTrue(
+            Assert.assertTrue(
                     isRegistered,
                     "Registration failed: Logout button not visible or enabled"
-            );*/
+            );
 
-           /* logger.info("Registration validation successful - Logout button is visible");
-            test.log(Status.PASS, "Registration verified successfully");*/
+            logger.info("Registration validation successful - Logout button is visible");
+            test.log(Status.PASS, "Registration verified successfully");
 
             /* ---------- STEP 6 : Logout ---------- */
             logger.info("STEP 6: Logging out registered user");
