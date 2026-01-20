@@ -26,15 +26,33 @@ public class Hook {
     protected ExtentTest test;
     protected Logs logger;
 
+
+    private void deleteOldReports(String folderPath) {
+        File folder = new File(folderPath);
+
+        if (folder.exists() && folder.isDirectory()) {
+            File[] files = folder.listFiles();
+            if (files != null) {
+                for (File file : files) {
+                    file.delete();
+                }
+            }
+        }
+    }
+
     @BeforeSuite
     public void setupSuite() {
-        // Create reports directory
+        // Delete old reports before creating new ones
+        deleteOldReports("test-output/reports");
+
+        // Create required directories
         createDirectory("test-output/reports");
         createDirectory("test-output/screenshots");
         createDirectory("logs");
 
         // Setup Extent Reports
-        String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
+        String timestamp = LocalDateTime.now()
+                .format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
         String reportPath = "test-output/reports/TestReport_" + timestamp + ".html";
 
         ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportPath);
@@ -44,12 +62,12 @@ public class Hook {
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
 
-        // Add system info
         extent.setSystemInfo("Application", "CDIPD Portal");
         extent.setSystemInfo("Environment", ConfigReader.getProperty("environment"));
         extent.setSystemInfo("OS", System.getProperty("os.name"));
         extent.setSystemInfo("Java Version", System.getProperty("java.version"));
     }
+
 
     @BeforeMethod
     @Parameters({"browser", "environment"})

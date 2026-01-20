@@ -119,7 +119,7 @@ public class WelcomePage extends BasePage {
 
 
     //Constants
-    private final String YOPMAIL_USERNAME = "abhi5667";
+    private final String YOPMAIL_USERNAME = "abhi5667tt";
     private final YopmailOTPFetcher otpFetcher;
 
     public WelcomePage(WebDriver driver) {
