@@ -119,7 +119,7 @@ public class WelcomePage extends BasePage {
 
 
     //Constants
-    private final String YOPMAIL_USERNAME = "abhi5667tt";
+//    private final String YOPMAIL_USERNAME = "abhi566jkt";
     private final YopmailOTPFetcher otpFetcher;
 
     public WelcomePage(WebDriver driver) {
@@ -150,7 +150,7 @@ public class WelcomePage extends BasePage {
     }
 
 
-    public void registerWithYopmail() throws InterruptedException {
+    public void registerWithYopmail(String yopmailUsername) throws InterruptedException {
         logger.info("Clicking Join Now button");
         click(btnJoinNow);
         logger.info("Clicking Sign Up with Email button");
@@ -162,7 +162,7 @@ public class WelcomePage extends BasePage {
         logger.info("Clicking Proceed button");
         click(btnProceed);
 
-        String yopmailEmail = YOPMAIL_USERNAME + "@yopmail.com";
+        String yopmailEmail = yopmailUsername + "@yopmail.com";
         enterEmail(yopmailEmail);
         logger.info("Clicking Send OTP button");
         click(btnSendOtp);
@@ -170,14 +170,13 @@ public class WelcomePage extends BasePage {
         System.out.println("Waiting for OTP email...");
         Thread.sleep(10000);
 
-        String otp = otpFetcher.fetchOTPWithRetry(YOPMAIL_USERNAME, 3, 5);
+        String otp = otpFetcher.fetchOTPWithRetry(yopmailUsername, 3,5);
 
         System.out.println("Using OTP: " + otp);
         enterOTP(otp);
         logger.info("Clicking Validate OTP button");
         click(btnValidateOtp);
     }
-
     private void enterEmail(String email) {
         logger.info("Entering email: {}", email.replaceAll("@.*", "@***"));
         wait.until(ExpectedConditions.visibilityOf(txtEmail));
@@ -245,8 +244,9 @@ public class WelcomePage extends BasePage {
         click(btnContinue);
     }
     public void fillPersonalDetails
-            (String firstName, String middleName, String lastName,
-             String dob, String phoneNumber, String description,
+            (String firstName, String middleName,
+             String lastName,
+             String phoneNumber,
              String password, int experienceYears)
     {
         sendKeys(txtfirstName, firstName);
