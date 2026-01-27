@@ -145,7 +145,7 @@ public class Hook {
         }
 
         if (driver != null) {
-            /*driver.quit();*/
+            driver.quit();
         }
     }
 
@@ -164,7 +164,4 @@ public class Hook {
         }
     }
 
-    public WebDriver getDriver() {
-        return driver;
-    }
 }

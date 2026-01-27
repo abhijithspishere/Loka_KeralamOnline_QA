@@ -179,20 +179,20 @@
 2026-01-14 17:25:43.409 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-14 17:25:43.410 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-14 17:25:43.423 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-14 17:25:43.500 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-14 17:25:43.500 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-14 17:25:43.501 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-14 17:25:43.501 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-14 17:25:43.848 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-14 17:25:43.501 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-14 17:25:43.848 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-14 17:25:44.196 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-14 17:25:44.197 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-14 17:25:44.473 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-14 17:25:44.847 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-14 17:25:45.261 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-14 17:25:45.691 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-14 17:26:14.410 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-14 17:26:14.413 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-14 17:25:44.197 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-14 17:25:44.473 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-14 17:25:44.847 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-14 17:25:45.261 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-14 17:25:45.691 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-14 17:26:14.410 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-14 17:26:14.413 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-14 17:26:14.734 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-14 17:26:14.734 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-14 17:26:14.734 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-14 17:26:18.659 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-1jqq78o-placeholder" id="react-select-4-placeholder">...</div> is not clickable at point (1100, 416). Other element would receive the click: <div class="css-19bb58m" data-value="">...</div>
   (Session info: chrome=143.0.7499.193)
@@ -220,8 +220,8 @@ Session ID: 90118c5afca80aea55c5abf32be24896
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
 	at PageObjects.BasePage.click(BasePage.java:26)
-	at PageObjects.WelcomePage.selectCountryAndCity(WelcomePage.java:237)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at PageObjects.RegistrationPage.selectCountryAndCity(WelcomePage.java:237)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -253,20 +253,20 @@ Session ID: 90118c5afca80aea55c5abf32be24896
 2026-01-16 12:26:21.068 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-16 12:26:21.068 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-16 12:26:21.073 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-16 12:26:21.111 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-16 12:26:21.111 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-16 12:26:21.112 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-16 12:26:21.112 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-16 12:26:21.283 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-16 12:26:21.112 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-16 12:26:21.283 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-16 12:26:21.574 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-16 12:26:21.575 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-16 12:26:21.758 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-16 12:26:21.975 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-16 12:26:22.104 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-16 12:26:22.370 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-16 12:26:48.385 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-16 12:26:48.385 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-16 12:26:21.575 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-16 12:26:21.758 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-16 12:26:21.975 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-16 12:26:22.104 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-16 12:26:22.370 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-16 12:26:48.385 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-16 12:26:48.385 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-16 12:26:48.480 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-16 12:26:48.480 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-16 12:26:48.480 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-16 12:26:51.413 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-1jqq78o-placeholder" id="react-select-4-placeholder">...</div> is not clickable at point (1100, 416). Other element would receive the click: <div class="css-19bb58m" data-value="">...</div>
   (Session info: chrome=143.0.7499.193)
@@ -294,8 +294,8 @@ Session ID: 5ae143d97d1ee9d0e5cd0be5682f509b
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
 	at PageObjects.BasePage.click(BasePage.java:26)
-	at PageObjects.WelcomePage.selectCountryAndCity(WelcomePage.java:237)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at PageObjects.RegistrationPage.selectCountryAndCity(WelcomePage.java:237)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -327,20 +327,20 @@ Session ID: 5ae143d97d1ee9d0e5cd0be5682f509b
 2026-01-16 12:30:57.374 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-16 12:30:57.374 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-16 12:30:57.380 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-16 12:30:57.414 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-16 12:30:57.414 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-16 12:30:57.415 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-16 12:30:57.415 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-16 12:30:57.611 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-16 12:30:57.415 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-16 12:30:57.611 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-16 12:30:57.951 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-16 12:30:57.951 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-16 12:30:58.100 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-16 12:30:58.318 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-16 12:30:58.461 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-16 12:30:58.833 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-16 12:31:25.374 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-16 12:31:25.375 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-16 12:30:57.951 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-16 12:30:58.100 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-16 12:30:58.318 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-16 12:30:58.461 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-16 12:30:58.833 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-16 12:31:25.374 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-16 12:31:25.375 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-16 12:31:25.483 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-16 12:31:25.483 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-16 12:31:25.483 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-16 12:31:28.440 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-1jqq78o-placeholder" id="react-select-4-placeholder">...</div> is not clickable at point (1100, 416). Other element would receive the click: <div class="css-19bb58m" data-value="">...</div>
   (Session info: chrome=143.0.7499.193)
@@ -368,8 +368,8 @@ Session ID: 1e989cbb099527bb077b5f6b60599c3c
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
 	at PageObjects.BasePage.click(BasePage.java:26)
-	at PageObjects.WelcomePage.selectCountryAndCity(WelcomePage.java:237)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at PageObjects.RegistrationPage.selectCountryAndCity(WelcomePage.java:237)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -401,20 +401,20 @@ Session ID: 1e989cbb099527bb077b5f6b60599c3c
 2026-01-16 12:33:17.946 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-16 12:33:17.946 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-16 12:33:17.960 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-16 12:33:18.033 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-16 12:33:18.033 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-16 12:33:18.034 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-16 12:33:18.034 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-16 12:33:18.318 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-16 12:33:18.034 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-16 12:33:18.318 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-16 12:33:18.681 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-16 12:33:18.682 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-16 12:33:18.901 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-16 12:33:19.235 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-16 12:33:19.479 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-16 12:33:19.918 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-16 12:33:46.704 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-16 12:33:46.705 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-16 12:33:18.682 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-16 12:33:18.901 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-16 12:33:19.235 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-16 12:33:19.479 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-16 12:33:19.918 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-16 12:33:46.704 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-16 12:33:46.705 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-16 12:33:46.906 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-16 12:33:46.907 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-16 12:33:46.907 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-16 12:33:50.717 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-1jqq78o-placeholder" id="react-select-4-placeholder">...</div> is not clickable at point (1100, 416). Other element would receive the click: <div class="css-19bb58m" data-value="">...</div>
   (Session info: chrome=143.0.7499.193)
@@ -442,8 +442,8 @@ Session ID: b3a3a8bf316f769e883c22dcc9fbaad7
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
 	at PageObjects.BasePage.click(BasePage.java:26)
-	at PageObjects.WelcomePage.selectCountryAndCity(WelcomePage.java:237)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at PageObjects.RegistrationPage.selectCountryAndCity(WelcomePage.java:237)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -475,20 +475,20 @@ Session ID: b3a3a8bf316f769e883c22dcc9fbaad7
 2026-01-16 12:36:44.806 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-16 12:36:44.806 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-16 12:36:44.823 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-16 12:36:44.903 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-16 12:36:44.903 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-16 12:36:44.904 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-16 12:36:44.904 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-16 12:36:45.247 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-16 12:36:44.904 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-16 12:36:45.247 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-16 12:36:45.637 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-16 12:36:45.637 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-16 12:36:45.929 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-16 12:36:46.324 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-16 12:36:46.681 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-16 12:36:47.122 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-16 12:37:19.641 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-16 12:37:19.646 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-16 12:36:45.637 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-16 12:36:45.929 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-16 12:36:46.324 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-16 12:36:46.681 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-16 12:36:47.122 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-16 12:37:19.641 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-16 12:37:19.646 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-16 12:37:19.889 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-16 12:37:19.889 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-16 12:37:19.889 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-16 12:37:24.697 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-16 12:37:25.997 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -517,8 +517,8 @@ Session ID: 5500f6e1174d05d32cbca1f834adb5ca
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy32.clear(Unknown Source)
 	at PageObjects.BasePage.sendKeys(BasePage.java:31)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:249)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:249)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -550,20 +550,20 @@ Session ID: 5500f6e1174d05d32cbca1f834adb5ca
 2026-01-16 12:39:50.236 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-16 12:39:50.236 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-16 12:39:50.251 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-16 12:39:50.345 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-16 12:39:50.345 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-16 12:39:50.346 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-16 12:39:50.346 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-16 12:39:50.665 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-16 12:39:50.346 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-16 12:39:50.665 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-16 12:39:51.027 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-16 12:39:51.027 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-16 12:39:51.300 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-16 12:39:51.657 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-16 12:39:51.986 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-16 12:39:52.458 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-16 12:40:21.619 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-16 12:40:21.625 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-16 12:39:51.027 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-16 12:39:51.300 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-16 12:39:51.657 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-16 12:39:51.986 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-16 12:39:52.458 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-16 12:40:21.619 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-16 12:40:21.625 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-16 12:40:21.852 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-16 12:40:21.852 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-16 12:40:21.852 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-16 12:40:26.548 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-16 12:40:27.829 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -592,8 +592,8 @@ Session ID: a8000aa329ede24ea05f4dd53ca1ac66
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy32.clear(Unknown Source)
 	at PageObjects.BasePage.sendKeys(BasePage.java:31)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:249)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:249)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -625,20 +625,20 @@ Session ID: a8000aa329ede24ea05f4dd53ca1ac66
 2026-01-16 12:43:04.449 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-16 12:43:04.451 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-16 12:43:04.466 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-16 12:43:04.564 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-16 12:43:04.564 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-16 12:43:04.564 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-16 12:43:04.564 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-16 12:43:05.072 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-16 12:43:04.564 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-16 12:43:05.072 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-16 12:43:05.442 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-16 12:43:05.442 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-16 12:43:05.789 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-16 12:43:06.190 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-16 12:43:06.480 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-16 12:43:07.109 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-16 12:43:39.405 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-16 12:43:39.406 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-16 12:43:05.442 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-16 12:43:05.789 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-16 12:43:06.190 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-16 12:43:06.480 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-16 12:43:07.109 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-16 12:43:39.405 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-16 12:43:39.406 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-16 12:43:39.647 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-16 12:43:39.651 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-16 12:43:39.651 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-16 12:43:44.368 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-16 12:44:02.176 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -667,8 +667,8 @@ Session ID: e24ce015de9b75bd8edcc82ab216c9a3
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy32.clear(Unknown Source)
 	at PageObjects.BasePage.sendKeys(BasePage.java:31)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:250)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:250)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -700,20 +700,20 @@ Session ID: e24ce015de9b75bd8edcc82ab216c9a3
 2026-01-16 12:47:19.567 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-16 12:47:19.567 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-16 12:47:19.586 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-16 12:47:19.682 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-16 12:47:19.682 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-16 12:47:19.683 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-16 12:47:19.683 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-16 12:47:20.085 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-16 12:47:19.683 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-16 12:47:20.085 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-16 12:47:20.452 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-16 12:47:20.452 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-16 12:47:20.752 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-16 12:47:21.189 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-16 12:47:21.484 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-16 12:47:22.176 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-16 12:47:51.156 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-16 12:47:51.156 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-16 12:47:20.452 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-16 12:47:20.752 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-16 12:47:21.189 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-16 12:47:21.484 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-16 12:47:22.176 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-16 12:47:51.156 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-16 12:47:51.156 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-16 12:47:51.385 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-16 12:47:51.386 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-16 12:47:51.386 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-16 12:47:57.549 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-16 12:48:19.732 [main] ERROR testRegistrationWithYopmail - Timeout during registration
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (07edcf0b884463132d28f108d2cd3cc4)] -> xpath: //input[@value='male']] (tried for 20 second(s) with 500 milliseconds interval)
@@ -725,8 +725,8 @@ Session ID: 07edcf0b884463132d28f108d2cd3cc4
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at PageObjects.BasePage.click(BasePage.java:25)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:254)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:254)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -758,20 +758,20 @@ Session ID: 07edcf0b884463132d28f108d2cd3cc4
 2026-01-16 12:50:47.348 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-16 12:50:47.348 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-16 12:50:47.365 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-16 12:50:47.467 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-16 12:50:47.467 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-16 12:50:47.467 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-16 12:50:47.467 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-16 12:50:47.868 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-16 12:50:47.467 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-16 12:50:47.868 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-16 12:50:48.280 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-16 12:50:48.280 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-16 12:50:48.611 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-16 12:50:49.259 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-16 12:50:49.613 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-16 12:50:50.311 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-16 12:51:17.201 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-16 12:51:17.209 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-16 12:50:48.280 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-16 12:50:48.611 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-16 12:50:49.259 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-16 12:50:49.613 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-16 12:50:50.311 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-16 12:51:17.201 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-16 12:51:17.209 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-16 12:51:17.576 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-16 12:51:17.577 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-16 12:51:17.577 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-16 12:51:21.734 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-16 12:51:24.144 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -800,8 +800,8 @@ Session ID: a2b47f81c4ff669a92b3ac54aa132a2c
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy32.clear(Unknown Source)
 	at PageObjects.BasePage.sendKeys(BasePage.java:31)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:255)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:255)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -833,20 +833,20 @@ Session ID: a2b47f81c4ff669a92b3ac54aa132a2c
 2026-01-19 11:28:11.921 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 11:28:11.921 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 11:28:11.927 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-19 11:28:11.971 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 11:28:11.971 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 11:28:11.971 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-19 11:28:11.971 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 11:28:12.217 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 11:28:11.971 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 11:28:12.217 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 11:28:12.535 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-19 11:28:12.535 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 11:28:12.674 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 11:28:12.901 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 11:28:13.063 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-19 11:28:13.335 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 11:28:39.315 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 11:28:39.316 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 11:28:12.535 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 11:28:12.674 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 11:28:12.901 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 11:28:13.063 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-19 11:28:13.335 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 11:28:39.315 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 11:28:39.316 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 11:28:39.436 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-19 11:28:39.436 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 11:28:39.436 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 11:28:42.464 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-19 11:28:43.793 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -875,8 +875,8 @@ Session ID: 8514f04cf46397d19616daf004a142c1
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy33.clear(Unknown Source)
 	at PageObjects.BasePage.sendKeys(BasePage.java:31)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:255)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:255)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -908,20 +908,20 @@ Session ID: 8514f04cf46397d19616daf004a142c1
 2026-01-19 11:41:43.822 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 11:41:43.822 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 11:41:43.835 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-19 11:41:43.920 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 11:41:43.920 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 11:41:43.921 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-19 11:41:43.922 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 11:41:44.404 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 11:41:43.922 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 11:41:44.404 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 11:41:44.927 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-19 11:41:44.927 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 11:41:45.350 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 11:41:45.918 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 11:41:46.357 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-19 11:41:47.449 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 11:42:16.593 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 11:42:16.595 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 11:41:44.927 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 11:41:45.350 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 11:41:45.918 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 11:41:46.357 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-19 11:41:47.449 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 11:42:16.593 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 11:42:16.595 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 11:42:16.898 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-19 11:42:16.898 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 11:42:16.898 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 11:42:24.165 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-19 11:42:27.667 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -950,8 +950,8 @@ Session ID: 5952c5743049fe8637023fa1ff999697
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy32.clear(Unknown Source)
 	at PageObjects.BasePage.sendKeys(BasePage.java:31)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:256)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:256)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -983,20 +983,20 @@ Session ID: 5952c5743049fe8637023fa1ff999697
 2026-01-19 11:47:43.128 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 11:47:43.128 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 11:47:43.139 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-19 11:47:43.222 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 11:47:43.222 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 11:47:43.222 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-19 11:47:43.222 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 11:47:54.323 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 11:47:43.222 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 11:47:54.323 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 11:47:54.696 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-19 11:47:54.697 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 11:47:55.005 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 11:47:55.519 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 11:47:55.773 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-19 11:47:56.197 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 11:48:22.253 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 11:48:22.258 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 11:47:54.697 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 11:47:55.005 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 11:47:55.519 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 11:47:55.773 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-19 11:47:56.197 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 11:48:22.253 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 11:48:22.258 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 11:48:22.529 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-19 11:48:22.530 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 11:48:22.530 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 11:48:26.995 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-19 11:48:51.924 [main] ERROR testRegistrationWithYopmail - Timeout during registration
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (0c5a1f96e7d899a8f5d371e2a1d4e4ef)] -> xpath: //input[@name='terms']] (tried for 20 second(s) with 500 milliseconds interval)
@@ -1008,8 +1008,8 @@ Session ID: 0c5a1f96e7d899a8f5d371e2a1d4e4ef
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at PageObjects.BasePage.click(BasePage.java:25)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:271)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:271)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1041,20 +1041,20 @@ Session ID: 0c5a1f96e7d899a8f5d371e2a1d4e4ef
 2026-01-19 11:53:01.478 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 11:53:01.479 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 11:53:01.490 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-19 11:53:01.570 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 11:53:01.570 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 11:53:01.570 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-19 11:53:01.571 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 11:53:01.937 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 11:53:01.571 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 11:53:01.937 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 11:53:02.275 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-19 11:53:02.275 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 11:53:02.531 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 11:53:02.911 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 11:53:03.303 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-19 11:53:03.767 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 11:53:32.882 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 11:53:32.883 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 11:53:02.275 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 11:53:02.531 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 11:53:02.911 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 11:53:03.303 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-19 11:53:03.767 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 11:53:32.882 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 11:53:32.883 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 11:53:33.138 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-19 11:53:33.138 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 11:53:33.138 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 11:53:38.021 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-19 11:54:02.828 [main] ERROR testRegistrationWithYopmail - Timeout during registration
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (68e66c57d2a2ecc626c3c741e7498b3b)] -> xpath: //input[@type='checkbox' and @name='terms']] (tried for 20 second(s) with 500 milliseconds interval)
@@ -1066,8 +1066,8 @@ Session ID: 68e66c57d2a2ecc626c3c741e7498b3b
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at PageObjects.BasePage.click(BasePage.java:25)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:271)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:271)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1099,20 +1099,20 @@ Session ID: 68e66c57d2a2ecc626c3c741e7498b3b
 2026-01-19 12:09:07.100 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 12:09:07.101 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 12:09:07.117 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-19 12:09:07.191 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:09:07.191 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 12:09:07.193 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-19 12:09:07.193 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 12:09:07.518 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:09:07.193 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 12:09:07.518 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 12:09:07.912 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-19 12:09:07.912 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 12:09:08.158 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 12:09:08.546 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 12:09:08.945 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-19 12:09:09.425 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 12:09:35.731 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 12:09:35.731 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 12:09:07.912 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 12:09:08.158 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 12:09:08.546 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 12:09:08.945 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-19 12:09:09.425 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 12:09:35.731 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 12:09:35.731 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 12:09:35.988 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-19 12:09:35.988 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 12:09:35.988 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 12:09:39.998 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
 2026-01-19 12:10:19.202 [main] ERROR testRegistrationWithYopmail - Registration failed
 org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
@@ -1134,9 +1134,9 @@ Session ID: 8f893481bd4796b7c1723a73629c8a5a
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjects.WelcomePage.jsClick(WelcomePage.java:144)
-	at PageObjects.WelcomePage.fillPersonalDetails(WelcomePage.java:278)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:40)
+	at PageObjects.RegistrationPage.jsClick(WelcomePage.java:144)
+	at PageObjects.RegistrationPage.fillPersonalDetails(WelcomePage.java:278)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:40)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1210,24 +1210,24 @@ Caused by: java.net.SocketException: Connection reset
 2026-01-19 12:20:47.347 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 12:20:47.348 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 12:20:47.359 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-19 12:20:47.425 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:20:47.425 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 12:20:47.425 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-19 12:20:47.425 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 12:20:47.732 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:20:47.425 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 12:20:47.732 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 12:20:48.094 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-19 12:20:48.095 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 12:20:48.354 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 12:20:48.707 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 12:20:48.977 [main] INFO  PageObjects.WelcomePage - Entering email: abhijith4499@***
-2026-01-19 12:20:49.522 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 12:21:12.662 [main] ERROR PageObjects.WelcomePage - Could not use single OTP field: Error communicating with the remote browser. It may have died.
+2026-01-19 12:20:48.095 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 12:20:48.354 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 12:20:48.707 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 12:20:48.977 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijith4499@***
+2026-01-19 12:20:49.522 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 12:21:12.662 [main] ERROR PageObjects.RegistrationPage - Could not use single OTP field: Error communicating with the remote browser. It may have died.
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [6bd76c26facf0517a40c7d56642928ca, findElements [using, value]]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54761}, goog:processID: 18456, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54761/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 6bd76c26facf0517a40c7d56642928ca
-2026-01-19 12:21:12.671 [main] ERROR PageObjects.WelcomePage - Failed to enter OTP digit 1: Error communicating with the remote browser. It may have died.
+2026-01-19 12:21:12.671 [main] ERROR PageObjects.RegistrationPage - Failed to enter OTP digit 1: Error communicating with the remote browser. It may have died.
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -1236,9 +1236,9 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 Session ID: 6bd76c26facf0517a40c7d56642928ca
 2026-01-19 12:21:12.674 [main] ERROR testRegistrationWithYopmail - Registration failed
 java.lang.RuntimeException: Failed to enter OTP
-	at PageObjects.WelcomePage.enterOTP(WelcomePage.java:233)
-	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:179)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:32)
+	at PageObjects.RegistrationPage.enterOTP(WelcomePage.java:233)
+	at PageObjects.RegistrationPage.registerWithYopmail(WelcomePage.java:179)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:32)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1285,7 +1285,7 @@ Session ID: 6bd76c26facf0517a40c7d56642928ca
 	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
 	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjects.WelcomePage.enterOTP(WelcomePage.java:225)
+	at PageObjects.RegistrationPage.enterOTP(WelcomePage.java:225)
 	... 27 more
 Caused by: java.io.UncheckedIOException: java.net.ConnectException
 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
@@ -1328,22 +1328,22 @@ Caused by: java.nio.channels.ClosedChannelException
 2026-01-19 12:22:14.164 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 12:22:14.164 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 12:22:14.175 [main] INFO  testRegistrationWithYopmail - ===== TEST STARTED: testRegistrationWithYopmail =====
-2026-01-19 12:22:14.247 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:22:14.247 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 12:22:14.248 [main] INFO  testRegistrationWithYopmail - Step 1: Closing popup and clicking Explore
-2026-01-19 12:22:14.248 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 12:22:14.546 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:22:14.248 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 12:22:14.546 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 12:22:14.953 [main] INFO  testRegistrationWithYopmail - Step 2: Registering user with Yopmail OTP
-2026-01-19 12:22:14.954 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 12:22:15.198 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 12:22:15.551 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 12:22:15.952 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka77@***
-2026-01-19 12:22:16.374 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 12:22:44.271 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 12:22:44.271 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 12:22:14.954 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 12:22:15.198 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 12:22:15.551 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 12:22:15.952 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka77@***
+2026-01-19 12:22:16.374 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 12:22:44.271 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 12:22:44.271 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 12:22:44.567 [main] INFO  testRegistrationWithYopmail - Step 3: Selecting country and city
-2026-01-19 12:22:44.568 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 12:22:44.568 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 12:22:48.506 [main] INFO  testRegistrationWithYopmail - Step 4: Filling personal details
-2026-01-19 12:22:53.418 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 12:22:53.418 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-19 12:22:53.418 [main] INFO  testRegistrationWithYopmail - Step 5: Verifying registration success
 2026-01-19 12:22:53.419 [main] INFO  testRegistrationWithYopmail - TEST PASSED: Registration completed successfully
 2026-01-19 12:22:53.420 [main] INFO  testRegistrationWithYopmail - ===== TEST COMPLETED: testRegistrationWithYopmail =====
@@ -1353,16 +1353,16 @@ Caused by: java.nio.channels.ClosedChannelException
 2026-01-19 12:48:01.077 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 12:48:01.077 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 12:48:01.095 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 12:48:01.196 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:48:01.196 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 12:48:01.196 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 12:48:01.197 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 12:48:01.666 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:48:01.197 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 12:48:01.666 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 12:48:02.145 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 12:48:02.146 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 12:48:02.564 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 12:48:03.230 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 12:48:03.527 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka77@***
-2026-01-19 12:48:04.236 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 12:48:02.146 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 12:48:02.564 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 12:48:03.230 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 12:48:03.527 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka77@***
+2026-01-19 12:48:04.236 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
 2026-01-19 12:48:14.657 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
 org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
 from disconnected: not connected to DevTools
@@ -1388,8 +1388,8 @@ Session ID: 933448df0b22b2ecf44d86d133967bb9
 	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:480)
 	at Utils.YopmailOTPFetcher.getOTPFromYopmail(YopmailOTPFetcher.java:193)
 	at Utils.YopmailOTPFetcher.fetchOTPWithRetry(YopmailOTPFetcher.java:454)
-	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:182)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at PageObjects.RegistrationPage.registerWithYopmail(WelcomePage.java:182)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1421,30 +1421,30 @@ Session ID: 933448df0b22b2ecf44d86d133967bb9
 2026-01-19 12:48:46.438 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 12:48:46.440 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 12:48:46.459 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 12:48:46.546 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:48:46.546 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 12:48:46.547 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 12:48:46.548 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 12:48:47.035 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:48:46.548 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 12:48:47.035 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 12:48:47.427 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 12:48:47.428 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 12:48:47.743 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 12:48:48.202 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 12:48:48.561 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka85@***
-2026-01-19 12:48:49.327 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 12:49:20.145 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 12:49:20.148 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 12:48:47.428 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 12:48:47.743 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 12:48:48.202 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 12:48:48.561 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka85@***
+2026-01-19 12:48:49.327 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 12:49:20.145 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 12:49:20.148 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 12:49:20.406 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-19 12:49:20.407 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 12:49:20.407 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 12:49:25.394 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-19 12:49:30.659 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 12:49:30.659 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-19 12:49:30.660 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
-2026-01-19 12:49:30.661 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
-2026-01-19 12:50:07.653 [main] ERROR PageObjects.WelcomePage - Logout button not visible/enabled. Registration may have failed.
+2026-01-19 12:49:30.661 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
+2026-01-19 12:50:07.653 [main] ERROR PageObjects.RegistrationPage - Logout button not visible/enabled. Registration may have failed.
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='Logout']' (tried for 20 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at PageObjects.WelcomePage.isRegistrationSuccessful(WelcomePage.java:306)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:63)
+	at PageObjects.RegistrationPage.isRegistrationSuccessful(WelcomePage.java:306)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:63)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1507,22 +1507,22 @@ Session ID: 6b815083969b32c1e952560ef977f62e
 2026-01-19 12:55:30.709 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 12:55:30.709 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 12:55:30.754 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 12:55:31.033 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 12:55:31.033 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 12:55:31.034 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 12:55:31.039 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 12:55:32.597 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 12:55:31.039 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 12:55:32.597 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 12:55:34.652 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 12:55:34.653 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 12:55:37.005 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 12:55:39.393 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 12:55:40.260 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka85@***
-2026-01-19 12:55:41.702 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 12:56:45.749 [main] ERROR PageObjects.WelcomePage - Failed to enter OTP digit 1: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //input[@aria-label='Please enter verification code. Digit 1']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-01-19 12:55:34.653 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 12:55:37.005 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 12:55:39.393 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 12:55:40.260 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka85@***
+2026-01-19 12:55:41.702 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 12:56:45.749 [main] ERROR PageObjects.RegistrationPage - Failed to enter OTP digit 1: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //input[@aria-label='Please enter verification code. Digit 1']' (tried for 20 second(s) with 500 milliseconds interval)
 2026-01-19 12:56:45.772 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
 java.lang.RuntimeException: Failed to enter OTP
-	at PageObjects.WelcomePage.enterOTP(WelcomePage.java:239)
-	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:185)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at PageObjects.RegistrationPage.enterOTP(WelcomePage.java:239)
+	at PageObjects.RegistrationPage.registerWithYopmail(WelcomePage.java:185)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1551,7 +1551,7 @@ java.lang.RuntimeException: Failed to enter OTP
 Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //input[@aria-label='Please enter verification code. Digit 1']' (tried for 20 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at PageObjects.WelcomePage.enterOTP(WelcomePage.java:231)
+	at PageObjects.RegistrationPage.enterOTP(WelcomePage.java:231)
 	... 27 more
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-label='Please enter verification code. Digit 1']"}
   (Session info: chrome=143.0.7499.193)
@@ -1592,25 +1592,25 @@ Session ID: f3f6707f0d73535a355c74cad49fb6e9
 2026-01-19 13:02:16.605 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 13:02:16.606 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 13:02:16.642 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 13:02:16.917 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 13:02:16.917 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 13:02:16.917 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 13:02:16.918 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 13:02:20.078 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 13:02:16.918 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 13:02:20.078 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 13:02:21.977 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 13:02:21.979 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 13:02:23.704 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 13:02:25.486 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 13:02:26.501 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka84@***
-2026-01-19 13:02:28.092 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 13:02:57.664 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 13:02:57.665 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 13:02:21.979 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 13:02:23.704 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 13:02:25.486 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 13:02:26.501 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka84@***
+2026-01-19 13:02:28.092 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 13:02:57.664 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 13:02:57.665 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 13:02:58.005 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-19 13:02:58.006 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 13:02:58.006 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 13:03:05.169 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-19 13:03:13.351 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 13:03:13.351 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-19 13:03:13.354 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
-2026-01-19 13:03:13.356 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
-2026-01-19 13:03:37.425 [main] ERROR PageObjects.WelcomePage - Logout button not visible/enabled. Registration may have failed.
+2026-01-19 13:03:13.356 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
+2026-01-19 13:03:37.425 [main] ERROR PageObjects.RegistrationPage - Logout button not visible/enabled. Registration may have failed.
 org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
@@ -1630,8 +1630,8 @@ Session ID: 685cd138955405aa066dd38e3807768e
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjects.WelcomePage.isRegistrationSuccessful(WelcomePage.java:306)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:63)
+	at PageObjects.RegistrationPage.isRegistrationSuccessful(WelcomePage.java:306)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:63)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1705,16 +1705,16 @@ Caused by: java.net.SocketException: Connection reset
 2026-01-19 13:06:21.314 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 13:06:21.314 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 13:06:21.328 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 13:06:21.404 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 13:06:21.404 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 13:06:21.405 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 13:06:21.406 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 13:06:36.103 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 13:06:21.406 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 13:06:36.103 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 13:06:36.429 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 13:06:36.430 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 13:06:36.716 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 13:06:37.627 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 13:06:38.051 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka84@***
-2026-01-19 13:06:38.670 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 13:06:36.430 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 13:06:36.716 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 13:06:37.627 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 13:06:38.051 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka84@***
+2026-01-19 13:06:38.670 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
 2026-01-19 13:06:48.869 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
 org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
 from disconnected: not connected to DevTools
@@ -1740,8 +1740,8 @@ Session ID: 3f8510367c94a3e367a1566d3f845662
 	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:480)
 	at Utils.YopmailOTPFetcher.getOTPFromYopmail(YopmailOTPFetcher.java:193)
 	at Utils.YopmailOTPFetcher.fetchOTPWithRetry(YopmailOTPFetcher.java:454)
-	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:182)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at PageObjects.RegistrationPage.registerWithYopmail(WelcomePage.java:182)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1773,30 +1773,30 @@ Session ID: 3f8510367c94a3e367a1566d3f845662
 2026-01-19 13:07:16.617 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 13:07:16.617 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 13:07:16.629 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 13:07:16.679 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 13:07:16.679 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 13:07:16.679 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 13:07:16.679 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 13:07:17.001 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 13:07:16.679 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 13:07:17.001 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 13:07:17.665 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 13:07:17.666 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 13:07:18.094 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 13:07:18.530 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 13:07:18.780 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka855@***
-2026-01-19 13:07:19.668 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 13:07:47.365 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 13:07:47.365 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 13:07:17.666 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 13:07:18.094 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 13:07:18.530 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 13:07:18.780 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka855@***
+2026-01-19 13:07:19.668 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 13:07:47.365 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 13:07:47.365 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 13:07:47.613 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-19 13:07:47.614 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 13:07:47.614 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 13:07:51.780 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-19 13:07:56.116 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 13:07:56.116 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-19 13:07:56.117 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
-2026-01-19 13:07:56.118 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
-2026-01-19 13:08:26.760 [main] ERROR PageObjects.WelcomePage - Logout button not visible/enabled. Registration may have failed.
+2026-01-19 13:07:56.118 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
+2026-01-19 13:08:26.760 [main] ERROR PageObjects.RegistrationPage - Logout button not visible/enabled. Registration may have failed.
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[normalize-space()='Logout']' (tried for 20 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at PageObjects.WelcomePage.isRegistrationSuccessful(WelcomePage.java:306)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:63)
+	at PageObjects.RegistrationPage.isRegistrationSuccessful(WelcomePage.java:306)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:63)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1859,25 +1859,25 @@ Session ID: 8bbb711a0ff81197a51016b24c561f93
 2026-01-19 13:09:55.928 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 13:09:55.928 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 13:09:55.957 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 13:09:56.037 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 13:09:56.037 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 13:09:56.038 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 13:09:56.039 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 13:09:56.342 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 13:09:56.039 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 13:09:56.342 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 13:09:56.676 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 13:09:56.677 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 13:09:56.929 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 13:09:57.710 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 13:09:58.064 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka858@***
-2026-01-19 13:09:58.763 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 13:10:26.746 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 13:10:26.747 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 13:09:56.677 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 13:09:56.929 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 13:09:57.710 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 13:09:58.064 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka858@***
+2026-01-19 13:09:58.763 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 13:10:26.746 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 13:10:26.747 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 13:10:26.908 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-19 13:10:26.909 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 13:10:26.909 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 13:10:31.702 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-19 13:10:36.442 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 13:10:36.442 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-19 13:10:36.443 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
 2026-01-19 13:10:36.443 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-19 13:10:36.444 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 13:10:36.444 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-19 13:10:36.487 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
 org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//main[@class='MuiBox-root css-r2f5jf']//div[@class='MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1p9u28g'][normalize-space()='DS'] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//main[@class='MuiBox-root css-r2f5jf']//div[@class='MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1p9u28g'][normalize-space()='DS']' is not a valid XPath expression.
@@ -1912,8 +1912,8 @@ Session ID: 7eb9578c3a290df7625c718d20370451
 	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
 	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at PageObjects.WelcomePage.logoutRegisteredUser(WelcomePage.java:297)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:77)
+	at PageObjects.RegistrationPage.logoutRegisteredUser(WelcomePage.java:297)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:77)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1945,30 +1945,30 @@ Session ID: 7eb9578c3a290df7625c718d20370451
 2026-01-19 14:58:50.352 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 14:58:50.353 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 14:58:50.370 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 14:58:50.422 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 14:58:50.422 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 14:58:50.422 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 14:58:50.423 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 14:58:50.614 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 14:58:50.423 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 14:58:50.614 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 14:58:50.919 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 14:58:50.919 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 14:58:51.058 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 14:58:51.237 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 14:58:51.390 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka8778@***
-2026-01-19 14:58:51.647 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 14:59:24.082 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 14:59:24.083 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 14:58:50.919 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 14:58:51.058 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 14:58:51.237 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 14:58:51.390 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka8778@***
+2026-01-19 14:58:51.647 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 14:59:24.082 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 14:59:24.083 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 14:59:24.184 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-19 14:59:24.185 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 14:59:24.185 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 14:59:27.007 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-19 14:59:29.852 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 14:59:29.852 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-19 14:59:29.852 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-19 14:59:29.852 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 14:59:29.852 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-19 15:00:00.524 [main] ERROR testRegistrationWithYopmail - Timeout occurred during registration flow
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //main[@class='MuiBox-root css-r2f5jf']//div[@class='MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-1p9u28g'][normalize-space()='DS']' (tried for 20 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at PageObjects.WelcomePage.logoutRegisteredUser(WelcomePage.java:302)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:77)
+	at PageObjects.RegistrationPage.logoutRegisteredUser(WelcomePage.java:302)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:77)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -2033,30 +2033,30 @@ Session ID: 4825e949681f5c5880b08db2c6b7cf77
 2026-01-19 15:25:02.609 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 15:25:02.609 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 15:25:02.618 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 15:25:02.650 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 15:25:02.650 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 15:25:02.651 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 15:25:02.651 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 15:25:02.808 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 15:25:02.651 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 15:25:02.808 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 15:25:03.115 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 15:25:03.116 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 15:25:03.281 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 15:25:03.593 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 15:25:03.834 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka8478@***
-2026-01-19 15:25:04.390 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 15:25:32.392 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 15:25:32.392 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 15:25:03.116 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 15:25:03.281 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 15:25:03.593 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 15:25:03.834 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka8478@***
+2026-01-19 15:25:04.390 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 15:25:32.392 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 15:25:32.392 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 15:25:32.535 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-19 15:25:32.536 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 15:25:32.536 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 15:25:36.001 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-19 15:25:39.888 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 15:25:39.888 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-19 15:25:39.889 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-19 15:25:39.889 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 15:25:39.889 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-19 15:26:00.532 [main] ERROR testRegistrationWithYopmail - Timeout occurred during registration flow
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[contains(@class,'MuiAvatar-root') and normalize-space()='VV'])[2] (tried for 20 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at PageObjects.WelcomePage.logoutRegisteredUser(WelcomePage.java:309)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:77)
+	at PageObjects.RegistrationPage.logoutRegisteredUser(WelcomePage.java:309)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:77)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -2115,16 +2115,16 @@ Session ID: a5c4a42b384d14e77a1da5c4e9fb2ef1
 2026-01-19 15:36:52.108 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 15:36:52.108 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 15:36:52.116 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 15:36:52.147 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 15:36:52.147 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 15:36:52.147 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 15:36:52.148 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 15:36:52.325 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 15:36:52.148 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 15:36:52.325 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 15:36:52.635 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 15:36:52.636 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 15:36:52.777 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 15:36:52.990 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 15:36:53.439 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithloka8478@***
-2026-01-19 15:36:53.776 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-19 15:36:52.636 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 15:36:52.777 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 15:36:52.990 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 15:36:53.439 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka8478@***
+2026-01-19 15:36:53.776 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
 2026-01-19 15:37:04.057 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
 org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
 from disconnected: not connected to DevTools
@@ -2150,8 +2150,8 @@ Session ID: ec69374d721bb1d2c0c5564b7e2765eb
 	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:480)
 	at Utils.YopmailOTPFetcher.getOTPFromYopmail(YopmailOTPFetcher.java:193)
 	at Utils.YopmailOTPFetcher.fetchOTPWithRetry(YopmailOTPFetcher.java:454)
-	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:182)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at PageObjects.RegistrationPage.registerWithYopmail(WelcomePage.java:182)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -2183,30 +2183,30 @@ Session ID: ec69374d721bb1d2c0c5564b7e2765eb
 2026-01-19 15:37:47.482 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 15:37:47.482 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 15:37:47.489 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 15:37:47.531 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 15:37:47.531 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 15:37:47.531 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 15:37:47.532 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 15:37:47.819 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 15:37:47.532 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 15:37:47.819 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 15:37:48.132 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 15:37:48.133 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 15:37:48.270 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 15:37:48.463 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 15:37:48.654 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithnew222@***
-2026-01-19 15:37:49.160 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 15:38:18.295 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 15:38:18.296 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 15:37:48.133 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 15:37:48.270 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 15:37:48.463 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 15:37:48.654 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithnew222@***
+2026-01-19 15:37:49.160 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 15:38:18.295 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 15:38:18.296 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 15:38:18.421 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-19 15:38:18.421 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 15:38:18.421 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 15:38:22.040 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-19 15:38:25.870 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 15:38:25.870 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-19 15:38:25.871 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-19 15:38:25.871 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 15:38:25.871 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-19 15:38:52.204 [main] ERROR testRegistrationWithYopmail - Timeout occurred during registration flow
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //li[normalize-space()='Logout'] (tried for 20 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at PageObjects.WelcomePage.logoutRegisteredUser(WelcomePage.java:316)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:77)
+	at PageObjects.RegistrationPage.logoutRegisteredUser(WelcomePage.java:316)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:77)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -2265,24 +2265,24 @@ Session ID: aa95d47bc7db3c14d7680d5a29a3e417
 2026-01-19 15:43:34.884 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-19 15:43:34.884 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-19 15:43:34.890 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-19 15:43:34.924 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-19 15:43:34.924 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-19 15:43:34.924 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-19 15:43:34.925 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-19 15:43:35.263 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-19 15:43:34.925 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-19 15:43:35.263 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-19 15:43:35.597 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-19 15:43:35.597 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-19 15:43:35.741 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-19 15:43:35.988 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-19 15:43:36.154 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithnew2220@***
-2026-01-19 15:43:36.414 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-19 15:44:25.510 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-19 15:44:25.511 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-19 15:43:35.597 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-19 15:43:35.741 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-19 15:43:35.988 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-19 15:43:36.154 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithnew2220@***
+2026-01-19 15:43:36.414 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-19 15:44:25.510 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-19 15:44:25.511 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-19 15:44:25.690 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-19 15:44:25.692 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-19 15:44:25.692 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-19 15:44:28.945 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-19 15:44:32.421 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-19 15:44:32.421 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-19 15:44:32.421 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-19 15:44:32.421 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-19 15:44:32.421 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-19 15:44:36.286 [main] INFO  testRegistrationWithYopmail - User logged out successfully
 2026-01-19 15:44:36.287 [main] INFO  testRegistrationWithYopmail - ========== TEST PASSED : testRegistrationWithYopmail ==========
 2026-01-19 15:44:36.292 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
@@ -2291,24 +2291,24 @@ Session ID: aa95d47bc7db3c14d7680d5a29a3e417
 2026-01-20 11:18:30.210 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-20 11:18:30.210 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-20 11:18:30.216 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-20 11:18:30.254 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-20 11:18:30.254 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-20 11:18:30.254 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-20 11:18:30.255 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-20 11:18:30.419 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-20 11:18:30.255 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-20 11:18:30.419 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-20 11:18:30.766 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-20 11:18:30.766 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-20 11:18:30.935 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-20 11:18:31.175 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-20 11:18:31.335 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithnew584@***
-2026-01-20 11:18:31.744 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-20 11:18:58.702 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-20 11:18:58.702 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-20 11:18:30.766 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-20 11:18:30.935 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-20 11:18:31.175 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-20 11:18:31.335 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithnew584@***
+2026-01-20 11:18:31.744 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-20 11:18:58.702 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-20 11:18:58.702 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-20 11:18:58.803 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-20 11:18:58.804 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-20 11:18:58.804 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-20 11:19:02.388 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-20 11:19:05.165 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-20 11:19:05.165 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-20 11:19:05.165 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-20 11:19:05.167 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-20 11:19:05.167 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-20 11:19:24.925 [main] INFO  testRegistrationWithYopmail - User logged out successfully
 2026-01-20 11:19:24.925 [main] INFO  testRegistrationWithYopmail - ========== TEST PASSED : testRegistrationWithYopmail ==========
 2026-01-20 11:19:24.930 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
@@ -2317,27 +2317,27 @@ Session ID: aa95d47bc7db3c14d7680d5a29a3e417
 2026-01-20 14:35:33.413 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-20 14:35:33.413 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-20 14:35:33.424 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-20 14:35:33.502 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-20 14:35:33.502 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-20 14:35:33.502 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-20 14:35:33.503 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-20 14:35:33.823 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-20 14:35:33.503 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-20 14:35:33.823 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-20 14:35:34.180 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-20 14:35:34.180 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-20 14:35:34.441 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-20 14:35:34.782 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-20 14:35:35.085 [main] INFO  PageObjects.WelcomePage - Entering email: abhijithnew5444@***
-2026-01-20 14:35:35.557 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-20 14:36:03.428 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-20 14:36:03.431 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-20 14:35:34.180 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-20 14:35:34.441 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-20 14:35:34.782 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-20 14:35:35.085 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithnew5444@***
+2026-01-20 14:35:35.557 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-20 14:36:03.428 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-20 14:36:03.431 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-20 14:36:03.640 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-20 14:36:03.641 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-20 14:36:03.641 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-20 14:36:07.388 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-20 14:36:11.702 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-20 14:36:11.702 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-20 14:36:11.703 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
-2026-01-20 14:36:11.703 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
+2026-01-20 14:36:11.703 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
 2026-01-20 14:36:16.921 [main] INFO  testRegistrationWithYopmail - Registration validation successful - Logout button is visible
 2026-01-20 14:36:16.922 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-20 14:36:16.923 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-20 14:36:16.923 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-20 14:36:17.155 [main] INFO  testRegistrationWithYopmail - User logged out successfully
 2026-01-20 14:36:17.156 [main] INFO  testRegistrationWithYopmail - ========== TEST PASSED : testRegistrationWithYopmail ==========
 2026-01-20 14:36:17.165 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
@@ -2346,27 +2346,27 @@ Session ID: aa95d47bc7db3c14d7680d5a29a3e417
 2026-01-20 15:51:48.376 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-20 15:51:48.376 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-20 15:51:48.381 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-20 15:51:48.422 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-20 15:51:48.422 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-20 15:51:48.423 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-20 15:51:48.423 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-20 15:51:48.618 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-20 15:51:48.423 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-20 15:51:48.618 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-20 15:51:48.919 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-20 15:51:48.919 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-20 15:51:49.057 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-20 15:51:49.275 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-20 15:51:49.462 [main] INFO  PageObjects.WelcomePage - Entering email: abhi5667@***
-2026-01-20 15:51:49.829 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-20 15:52:17.285 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-20 15:52:17.286 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-20 15:51:48.919 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-20 15:51:49.057 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-20 15:51:49.275 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-20 15:51:49.462 [main] INFO  PageObjects.RegistrationPage - Entering email: abhi5667@***
+2026-01-20 15:51:49.829 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-20 15:52:17.285 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-20 15:52:17.286 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-20 15:52:17.379 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-20 15:52:17.379 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-20 15:52:17.379 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-20 15:52:20.000 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-20 15:52:23.327 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-20 15:52:23.327 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-20 15:52:23.327 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
-2026-01-20 15:52:23.328 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
+2026-01-20 15:52:23.328 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
 2026-01-20 15:52:26.723 [main] INFO  testRegistrationWithYopmail - Registration validation successful - Logout button is visible
 2026-01-20 15:52:26.723 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-20 15:52:26.727 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-20 15:52:26.727 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-20 15:52:27.065 [main] INFO  testRegistrationWithYopmail - User logged out successfully
 2026-01-20 15:52:27.065 [main] INFO  testRegistrationWithYopmail - ========== TEST PASSED : testRegistrationWithYopmail ==========
 2026-01-20 15:52:27.069 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
@@ -2375,16 +2375,16 @@ Session ID: aa95d47bc7db3c14d7680d5a29a3e417
 2026-01-20 16:48:59.578 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-20 16:48:59.578 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-20 16:48:59.582 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-20 16:48:59.613 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-20 16:48:59.613 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-20 16:48:59.614 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-20 16:48:59.614 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-20 16:48:59.772 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-20 16:48:59.614 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-20 16:48:59.772 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-20 16:49:00.104 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-20 16:49:00.106 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-20 16:49:00.264 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-20 16:49:00.476 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-20 16:49:00.657 [main] INFO  PageObjects.WelcomePage - Entering email: abhi5667@***
-2026-01-20 16:49:00.905 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
+2026-01-20 16:49:00.106 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-20 16:49:00.264 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-20 16:49:00.476 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-20 16:49:00.657 [main] INFO  PageObjects.RegistrationPage - Entering email: abhi5667@***
+2026-01-20 16:49:00.905 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
 2026-01-20 16:49:11.054 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
 org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
 from disconnected: not connected to DevTools
@@ -2410,8 +2410,8 @@ Session ID: 961d53f94cff39318d8828016ccca1eb
 	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:480)
 	at Utils.YopmailOTPFetcher.getOTPFromYopmail(YopmailOTPFetcher.java:24)
 	at Utils.YopmailOTPFetcher.fetchOTPWithRetry(YopmailOTPFetcher.java:251)
-	at PageObjects.WelcomePage.registerWithYopmail(WelcomePage.java:173)
-	at Tests.WelcomePage_test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at PageObjects.RegistrationPage.registerWithYopmail(WelcomePage.java:173)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -2443,27 +2443,27 @@ Session ID: 961d53f94cff39318d8828016ccca1eb
 2026-01-20 16:50:02.833 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-20 16:50:02.833 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-20 16:50:02.839 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-20 16:50:02.884 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-20 16:50:02.884 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-20 16:50:02.884 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-20 16:50:02.884 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-20 16:50:03.108 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-20 16:50:02.884 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-20 16:50:03.108 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-20 16:50:03.405 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-20 16:50:03.406 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-20 16:50:03.529 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-20 16:50:03.738 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-20 16:50:03.886 [main] INFO  PageObjects.WelcomePage - Entering email: abhi566733@***
-2026-01-20 16:50:04.086 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-20 16:50:33.822 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-20 16:50:33.822 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-20 16:50:03.406 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-20 16:50:03.529 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-20 16:50:03.738 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-20 16:50:03.886 [main] INFO  PageObjects.RegistrationPage - Entering email: abhi566733@***
+2026-01-20 16:50:04.086 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-20 16:50:33.822 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-20 16:50:33.822 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-20 16:50:33.925 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-20 16:50:33.926 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-20 16:50:33.926 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-20 16:50:36.564 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-20 16:50:39.359 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-20 16:50:39.359 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-20 16:50:39.359 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
-2026-01-20 16:50:39.360 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
+2026-01-20 16:50:39.360 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
 2026-01-20 16:50:44.729 [main] INFO  testRegistrationWithYopmail - Registration validation successful - Logout button is visible
 2026-01-20 16:50:44.730 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-20 16:50:44.730 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-20 16:50:44.730 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-20 16:50:44.838 [main] INFO  testRegistrationWithYopmail - User logged out successfully
 2026-01-20 16:50:44.839 [main] INFO  testRegistrationWithYopmail - ========== TEST PASSED : testRegistrationWithYopmail ==========
 2026-01-20 16:50:44.845 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
@@ -2472,28 +2472,188 @@ Session ID: 961d53f94cff39318d8828016ccca1eb
 2026-01-20 16:52:08.701 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
 2026-01-20 16:52:08.701 [main] INFO  testRegistrationWithYopmail - Environment: QA
 2026-01-20 16:52:08.713 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
-2026-01-20 16:52:08.750 [main] INFO  PageObjects.WelcomePage - WelcomePage initialized
+2026-01-20 16:52:08.750 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
 2026-01-20 16:52:08.750 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
-2026-01-20 16:52:08.751 [main] INFO  PageObjects.WelcomePage - Clicking Close button
-2026-01-20 16:52:08.936 [main] INFO  PageObjects.WelcomePage - Clicking Explore button
+2026-01-20 16:52:08.751 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-20 16:52:08.936 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
 2026-01-20 16:52:09.301 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
-2026-01-20 16:52:09.302 [main] INFO  PageObjects.WelcomePage - Clicking Join Now button
-2026-01-20 16:52:09.432 [main] INFO  PageObjects.WelcomePage - Clicking Sign Up with Email button
-2026-01-20 16:52:09.612 [main] INFO  PageObjects.WelcomePage - Clicking Proceed button
-2026-01-20 16:52:09.759 [main] INFO  PageObjects.WelcomePage - Entering email: abhi5667tt@***
-2026-01-20 16:52:10.008 [main] INFO  PageObjects.WelcomePage - Clicking Send OTP button
-2026-01-20 16:52:37.313 [main] INFO  PageObjects.WelcomePage - OTP entered successfully
-2026-01-20 16:52:37.313 [main] INFO  PageObjects.WelcomePage - Clicking Validate OTP button
+2026-01-20 16:52:09.302 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-20 16:52:09.432 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-20 16:52:09.612 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-20 16:52:09.759 [main] INFO  PageObjects.RegistrationPage - Entering email: abhi5667tt@***
+2026-01-20 16:52:10.008 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-20 16:52:37.313 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-20 16:52:37.313 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
 2026-01-20 16:52:37.405 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
-2026-01-20 16:52:37.406 [main] INFO  PageObjects.WelcomePage - Selecting country and city
+2026-01-20 16:52:37.406 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
 2026-01-20 16:52:40.119 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
-2026-01-20 16:52:43.013 [main] INFO  PageObjects.WelcomePage - Complete registration process finished
+2026-01-20 16:52:43.013 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
 2026-01-20 16:52:43.014 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
-2026-01-20 16:52:43.014 [main] INFO  PageObjects.WelcomePage - Verifying registration success by checking Logout button visibility
+2026-01-20 16:52:43.014 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
 2026-01-20 16:52:47.376 [main] INFO  testRegistrationWithYopmail - Registration validation successful - Logout button is visible
 2026-01-20 16:52:47.377 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
-2026-01-20 16:52:47.377 [main] INFO  PageObjects.WelcomePage - Logging out registered user
+2026-01-20 16:52:47.377 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
 2026-01-20 16:52:47.577 [main] INFO  testRegistrationWithYopmail - User logged out successfully
 2026-01-20 16:52:47.577 [main] INFO  testRegistrationWithYopmail - ========== TEST PASSED : testRegistrationWithYopmail ==========
 2026-01-20 16:52:47.581 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
 2026-01-20 16:52:48.093 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-22 11:54:10.512 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-22 11:54:10.523 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-22 11:54:10.523 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-22 11:54:10.537 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-22 11:54:10.629 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
+2026-01-22 11:54:10.629 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-22 11:54:10.630 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-22 11:54:10.974 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
+2026-01-22 11:54:11.294 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-22 11:54:11.295 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-22 11:54:11.541 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-22 11:54:11.860 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-22 11:54:12.141 [main] INFO  PageObjects.RegistrationPage - Entering email: abhi5667tt@***
+2026-01-22 11:54:12.597 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-22 11:54:48.435 [main] ERROR testRegistrationWithYopmail - Exception occurred during registration flow
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.193)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f7d239d5ae9d25eb5ff2c139fb86009, switchToWindow {handle=398FE6891723546CF9DE32BA216437D4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DUK\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51258}, goog:processID: 21040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51258/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f7d239d5ae9d25eb5ff2c139fb86009
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1148)
+	at Utils.YopmailOTPFetcher.getOTPFromYopmail(YopmailOTPFetcher.java:81)
+	at Utils.YopmailOTPFetcher.fetchOTPWithRetry(YopmailOTPFetcher.java:251)
+	at PageObjects.RegistrationPage.registerWithYopmail(WelcomePage.java:173)
+	at Tests.RegistrationPage_Test.testRegistrationWithYopmail(WelcomePage_test.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-22 11:54:48.449 [main] ERROR testRegistrationWithYopmail - Test FAILED: testRegistrationWithYopmail
+2026-01-22 11:54:48.813 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-22 11:55:16.196 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-22 11:55:16.207 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-22 11:55:16.208 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-22 11:55:16.223 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED : testRegistrationWithYopmail ==========
+2026-01-22 11:55:16.287 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
+2026-01-22 11:55:16.288 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing initial popup and clicking Explore
+2026-01-22 11:55:16.290 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-22 11:55:17.003 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
+2026-01-22 11:55:17.419 [main] INFO  testRegistrationWithYopmail - STEP 2: Starting registration using Yopmail OTP
+2026-01-22 11:55:17.420 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-22 11:55:17.712 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-22 11:55:18.051 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-22 11:55:18.306 [main] INFO  PageObjects.RegistrationPage - Entering email: abhi566jkt@***
+2026-01-22 11:55:18.746 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-22 11:55:49.441 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-22 11:55:49.442 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
+2026-01-22 11:55:49.638 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-22 11:55:49.638 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
+2026-01-22 11:55:53.844 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details and completing registration
+2026-01-22 11:55:57.989 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
+2026-01-22 11:55:57.990 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating successful registration via Logout button
+2026-01-22 11:55:57.990 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
+2026-01-22 11:56:03.803 [main] INFO  testRegistrationWithYopmail - Registration validation successful - Logout button is visible
+2026-01-22 11:56:03.807 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
+2026-01-22 11:56:03.809 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
+2026-01-22 11:56:04.014 [main] INFO  testRegistrationWithYopmail - User logged out successfully
+2026-01-22 11:56:04.015 [main] INFO  testRegistrationWithYopmail - ========== TEST PASSED : testRegistrationWithYopmail ==========
+2026-01-22 11:56:04.024 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-22 11:56:04.878 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-23 11:33:47.973 [main] INFO  testRegistrationWithYopmail - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-23 11:33:47.978 [main] INFO  testRegistrationWithYopmail - Browser: CHROME
+2026-01-23 11:33:47.979 [main] INFO  testRegistrationWithYopmail - Environment: QA
+2026-01-23 11:33:48.002 [main] INFO  testRegistrationWithYopmail - ========== TEST STARTED ==========
+2026-01-23 11:33:48.003 [main] INFO  testRegistrationWithYopmail - User: Abhijith Suresh
+2026-01-23 11:33:48.003 [main] INFO  testRegistrationWithYopmail - Yopmail Username: abhijithloka4532
+2026-01-23 11:33:48.004 [main] INFO  testRegistrationWithYopmail - Phone: 2147483647
+2026-01-23 11:33:48.079 [main] INFO  PageObjects.RegistrationPage - WelcomePage initialized
+2026-01-23 11:33:48.079 [main] INFO  testRegistrationWithYopmail - STEP 1: Closing popup and exploring
+2026-01-23 11:33:48.079 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-23 11:33:48.363 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
+2026-01-23 11:33:48.721 [main] INFO  testRegistrationWithYopmail - STEP 2: Registering with Yopmail: abhijithloka4532
+2026-01-23 11:33:48.721 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-23 11:33:48.988 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-23 11:33:49.303 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-23 11:33:49.566 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka4532@***
+2026-01-23 11:33:50.028 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-23 11:34:34.300 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-23 11:34:34.303 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
+2026-01-23 11:34:34.538 [main] INFO  testRegistrationWithYopmail - STEP 3: Selecting country and city
+2026-01-23 11:34:34.538 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
+2026-01-23 11:34:40.006 [main] INFO  testRegistrationWithYopmail - STEP 4: Filling personal details
+2026-01-23 11:34:44.533 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
+2026-01-23 11:34:44.534 [main] INFO  testRegistrationWithYopmail - STEP 5: Validating registration
+2026-01-23 11:34:44.534 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
+2026-01-23 11:34:59.956 [main] INFO  testRegistrationWithYopmail - Registration validation successful
+2026-01-23 11:34:59.957 [main] INFO  testRegistrationWithYopmail - STEP 6: Logging out registered user
+2026-01-23 11:34:59.957 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
+2026-01-23 11:35:00.157 [main] INFO  testRegistrationWithYopmail - User logged out successfully
+2026-01-23 11:35:00.159 [main] INFO  testRegistrationWithYopmail - ========== TEST PASSED ==========
+2026-01-23 11:35:00.168 [main] INFO  testRegistrationWithYopmail - Test PASSED: testRegistrationWithYopmail
+2026-01-23 11:35:00.980 [main] INFO  testRegistrationWithYopmail - Test suite execution completed
+2026-01-23 11:48:18.269 [main] INFO  registration_test - Test suite execution completed
+2026-01-23 11:49:39.961 [main] INFO  registration_test - Navigated to URL: https://qa.lokakeralamonline.kerala.gov.in/
+2026-01-23 11:49:39.967 [main] INFO  registration_test - Browser: CHROME
+2026-01-23 11:49:39.968 [main] INFO  registration_test - Environment: QA
+2026-01-23 11:49:39.995 [main] INFO  registration_test - ========== TEST STARTED ==========
+2026-01-23 11:49:39.996 [main] INFO  registration_test - User: Abhijith Suresh
+2026-01-23 11:49:39.996 [main] INFO  registration_test - Yopmail Username: abhijithloka4596
+2026-01-23 11:49:39.997 [main] INFO  registration_test - Phone: 2147483647
+2026-01-23 11:49:40.074 [main] INFO  PageObjects.RegistrationPage - RegistrationPage initialized
+2026-01-23 11:49:40.074 [main] INFO  registration_test - STEP 1: Closing popup and exploring
+2026-01-23 11:49:40.074 [main] INFO  PageObjects.RegistrationPage - Clicking Close button
+2026-01-23 11:49:40.418 [main] INFO  PageObjects.RegistrationPage - Clicking Explore button
+2026-01-23 11:49:40.777 [main] INFO  registration_test - STEP 2: Registering with Yopmail: abhijithloka4596
+2026-01-23 11:49:40.778 [main] INFO  PageObjects.RegistrationPage - Clicking Join Now button
+2026-01-23 11:49:41.093 [main] INFO  PageObjects.RegistrationPage - Clicking Sign Up with Email button
+2026-01-23 11:49:41.487 [main] INFO  PageObjects.RegistrationPage - Clicking Proceed button
+2026-01-23 11:49:41.760 [main] INFO  PageObjects.RegistrationPage - Entering email: abhijithloka4596@***
+2026-01-23 11:49:42.275 [main] INFO  PageObjects.RegistrationPage - Clicking Send OTP button
+2026-01-23 11:50:15.774 [main] INFO  PageObjects.RegistrationPage - OTP entered successfully
+2026-01-23 11:50:15.779 [main] INFO  PageObjects.RegistrationPage - Clicking Validate OTP button
+2026-01-23 11:50:16.032 [main] INFO  registration_test - STEP 3: Selecting country and city
+2026-01-23 11:50:16.033 [main] INFO  PageObjects.RegistrationPage - Selecting country and city
+2026-01-23 11:50:20.181 [main] INFO  registration_test - STEP 4: Filling personal details
+2026-01-23 11:50:24.624 [main] INFO  PageObjects.RegistrationPage - Complete registration process finished
+2026-01-23 11:50:24.625 [main] INFO  registration_test - STEP 5: Validating registration
+2026-01-23 11:50:24.626 [main] INFO  PageObjects.RegistrationPage - Verifying registration success by checking Logout button visibility
+2026-01-23 11:50:35.889 [main] INFO  registration_test - Registration validation successful
+2026-01-23 11:50:35.891 [main] INFO  registration_test - STEP 6: Logging out registered user
+2026-01-23 11:50:35.891 [main] INFO  PageObjects.RegistrationPage - Logging out registered user
+2026-01-23 11:50:36.147 [main] INFO  registration_test - User logged out successfully
+2026-01-23 11:50:36.148 [main] INFO  registration_test - ========== TEST PASSED ==========
+2026-01-23 11:50:36.156 [main] INFO  registration_test - Test PASSED: registration_test
+2026-01-23 11:50:37.200 [main] INFO  registration_test - Test suite execution completed

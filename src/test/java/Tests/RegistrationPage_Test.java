@@ -2,6 +2,7 @@ package Tests;
 
 import Hooks.Hook;
 import PageObjects.RegistrationPage;
+import Utils.CredentialsStorage;
 import com.aventstack.extentreports.Status;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -9,7 +10,7 @@ import org.testng.annotations.DataProvider;
 import java.io.IOException;
 import Utils.ExcelUtils;
 
-public class WelcomePage_test extends Hook {
+public class RegistrationPage_Test extends Hook {
 
     @DataProvider(name = "registrationData")
     public Object[][] getRegistrationData() throws IOException {
@@ -26,12 +27,12 @@ public class WelcomePage_test extends Hook {
 
     )
     public void registration_test(
-            String yopmailUsername,  // Excel column 1 - yopmail username (e.g., "abhijithloka4532")
-            String firstName,        // Excel column 2
-            String middleName,       // Excel column 3
-            String lastName,         // Excel column 4
-            String phoneNumber,      // Excel column 5
-            String password          // Excel column 6
+            String yopmailUsername,
+            String firstName,
+            String middleName,
+            String lastName,
+            String phoneNumber,
+            String password
     ) {
         int experienceYears = 5;
 
@@ -49,31 +50,27 @@ public class WelcomePage_test extends Hook {
         RegistrationPage welcomePage = new RegistrationPage(driver);
 
         try {
-            /* ---------- STEP 1 : Launch & Explore ---------- */
             logger.info("STEP 1: Closing popup and exploring");
             welcomePage.clickCloseButton();
             welcomePage.clickExploreButton();
 
-            /* ---------- STEP 2 : Register using Yopmail ---------- */
             logger.info("STEP 2: Registering with Yopmail: " + yopmailUsername);
             welcomePage.registerWithYopmail(yopmailUsername);
 
-            /* ---------- STEP 3 : Country & City Selection ---------- */
             logger.info("STEP 3: Selecting country and city");
             welcomePage.selectCountryAndCity();
 
-            /* ---------- STEP 4 : Fill Personal Details ---------- */
             logger.info("STEP 4: Filling personal details");
             welcomePage.fillPersonalDetails(
-                    firstName,       // From Excel
-                    middleName,      // From Excel
-                    lastName,        // From Excel
-                    phoneNumber,     // From Excel
-                    password,        // From Excel
-                    experienceYears  // Hardcoded
+                    firstName,
+                    middleName,
+                    lastName,
+                    phoneNumber,
+                    password,
+                    experienceYears
             );
 
-            /* ---------- STEP 5 : Registration Validation ---------- */
+
             logger.info("STEP 5: Validating registration");
             boolean isRegistered = welcomePage.isRegistrationSuccessful();
 
@@ -82,10 +79,17 @@ public class WelcomePage_test extends Hook {
                     "Registration failed for user: " + firstName + " " + lastName
             );
 
+            String email = yopmailUsername + "@yopmail.com";
+            CredentialsStorage.storeCredentials(email, password);
+
+            logger.info("Credentials stored for login test:");
+            logger.info("Email: " + email);
+            logger.info("Password: " + password);
+
             logger.info("Registration validation successful");
             test.log(Status.PASS, "Registration verified successfully");
 
-            /* ---------- STEP 6 : Logout ---------- */
+
             logger.info("STEP 6: Logging out registered user");
             welcomePage.logoutRegisteredUser();
             logger.info("User logged out successfully");

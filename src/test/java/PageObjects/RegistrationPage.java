@@ -11,8 +11,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.util.List;
 
-public class WelcomePage extends BasePage {
-    private static final Logger logger = LogManager.getLogger(WelcomePage.class);
+public class RegistrationPage extends BasePage {
+    private static final Logger logger = LogManager.getLogger(RegistrationPage.class);
 
     //Locators
     @FindBy(xpath = "//button[normalize-space()='Close']")
@@ -117,15 +117,12 @@ public class WelcomePage extends BasePage {
     @FindBy(xpath = "//button[normalize-space()='Register']")
     private WebElement btnRegister;
 
-
-    //Constants
-//    private final String YOPMAIL_USERNAME = "abhi566jkt";
     private final YopmailOTPFetcher otpFetcher;
 
-    public WelcomePage(WebDriver driver) {
+    public RegistrationPage(WebDriver driver) {
         super(driver);
         this.otpFetcher = new YopmailOTPFetcher(driver);
-        logger.info("WelcomePage initialized");
+        logger.info("RegistrationPage initialized");
     }
 
     public void clickCloseButton() {
@@ -322,8 +319,6 @@ public class WelcomePage extends BasePage {
             return false;
         }
     }
-
-
 
 
     private void setExperienceSlider(int years) {

@@ -85,8 +85,8 @@ public class YopmailOTPFetcher {
     }
 
     /**
-     * Extract OTP from email content - improved method
-     */
+ /*    * Extract OTP from email content - improved method
+     *//*
     private String extractOTPFromEmailContent() {
         try {
             // Get the entire email content
@@ -149,7 +149,7 @@ public class YopmailOTPFetcher {
     /**
      * Alternative extraction from email body with specific element targeting
      */
-    private String extractOTPFromEmailBody() {
+    /*private String extractOTPFromEmailBody() {
         try {
             // Try to find the OTP in specific HTML elements
             // Common patterns in OTP emails
@@ -209,9 +209,9 @@ public class YopmailOTPFetcher {
         return null;
     }
 
-    /**
+    *//**
      * Extract OTP from HTML source code
-     */
+     *//*
     private String extractOTPFromHTML(String html) {
         try {
             // Look for OTP in HTML patterns
@@ -238,7 +238,7 @@ public class YopmailOTPFetcher {
         }
 
         return null;
-    }
+    }*/
 
 
     public String fetchOTPWithRetry(String email, int maxRetry, int delay)
